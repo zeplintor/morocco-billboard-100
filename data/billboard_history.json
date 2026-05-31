@@ -6,9 +6,35 @@
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 1364871357
+      "youtube_views": 1364872211
     },
     "rank": 1,
+    "previous_rank": 1,
+    "evolution": "="
+  },
+  {
+    "name": "Soolking",
+    "category": "rap",
+    "score": 18.25,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 711818556
+    },
+    "rank": 2,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Niska",
+    "category": "rap",
+    "score": 17.77,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 693055113
+    },
+    "rank": 3,
     "previous_rank": null,
     "evolution": "NEW"
   },
@@ -19,9 +45,22 @@
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 676760158
+      "youtube_views": 676760518
     },
-    "rank": 2,
+    "rank": 4,
+    "previous_rank": 2,
+    "evolution": "▼ 2"
+  },
+  {
+    "name": "Awa Imani",
+    "category": "pop",
+    "score": 14.7,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 573331780
+    },
+    "rank": 5,
     "previous_rank": null,
     "evolution": "NEW"
   },
@@ -32,11 +71,11 @@
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 548538643
+      "youtube_views": 548539287
     },
-    "rank": 3,
-    "previous_rank": null,
-    "evolution": "NEW"
+    "rank": 6,
+    "previous_rank": 3,
+    "evolution": "▼ 3"
   },
   {
     "name": "Wegz",
@@ -45,22 +84,22 @@
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 504156264
+      "youtube_views": 504156965
     },
-    "rank": 4,
-    "previous_rank": null,
-    "evolution": "NEW"
+    "rank": 7,
+    "previous_rank": 4,
+    "evolution": "▼ 3"
   },
   {
-    "name": "Fnaire",
-    "category": "traditional",
-    "score": 9.87,
+    "name": "Dystinct",
+    "category": "rap",
+    "score": 11.44,
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 385002319
+      "youtube_views": 446069182
     },
-    "rank": 5,
+    "rank": 8,
     "previous_rank": null,
     "evolution": "NEW"
   },
@@ -71,37 +110,50 @@
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 380066946
+      "youtube_views": 380067132
     },
-    "rank": 6,
-    "previous_rank": null,
-    "evolution": "NEW"
+    "rank": 9,
+    "previous_rank": 6,
+    "evolution": "▼ 3"
   },
   {
     "name": "Muslim",
     "category": "rap",
-    "score": 8.9,
+    "score": 8.94,
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 347168788
+      "youtube_views": 348725652
     },
-    "rank": 7,
+    "rank": 10,
+    "previous_rank": 7,
+    "evolution": "▼ 3"
+  },
+  {
+    "name": "Rim'K",
+    "category": "rap",
+    "score": 8.65,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 337303846
+    },
+    "rank": 11,
     "previous_rank": null,
     "evolution": "NEW"
   },
   {
-    "name": "Lbenj",
-    "category": "rap",
-    "score": 6.65,
+    "name": "Fnaire",
+    "category": "traditional",
+    "score": 7.75,
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 259324409
+      "youtube_views": 302391730
     },
-    "rank": 8,
-    "previous_rank": null,
-    "evolution": "NEW"
+    "rank": 12,
+    "previous_rank": 5,
+    "evolution": "▼ 7"
   },
   {
     "name": "Issam",
@@ -110,9 +162,22 @@
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 220931228
+      "youtube_views": 220931411
     },
-    "rank": 9,
+    "rank": 13,
+    "previous_rank": 9,
+    "evolution": "▼ 4"
+  },
+  {
+    "name": "Sofiane",
+    "category": "rap",
+    "score": 5.61,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 218703638
+    },
+    "rank": 14,
     "previous_rank": null,
     "evolution": "NEW"
   },
@@ -123,11 +188,11 @@
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 205016969
+      "youtube_views": 205017182
     },
-    "rank": 10,
-    "previous_rank": null,
-    "evolution": "NEW"
+    "rank": 15,
+    "previous_rank": 10,
+    "evolution": "▼ 5"
   },
   {
     "name": "ElGrandeToto",
@@ -136,24 +201,76 @@
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 197802558
+      "youtube_views": 197803223
     },
-    "rank": 11,
+    "rank": 16,
+    "previous_rank": 11,
+    "evolution": "▼ 5"
+  },
+  {
+    "name": "Zaho",
+    "category": "pop",
+    "score": 4.95,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 193042208
+    },
+    "rank": 17,
     "previous_rank": null,
     "evolution": "NEW"
   },
   {
-    "name": "Hamza",
+    "name": "Lbenj",
     "category": "rap",
-    "score": 2.94,
+    "score": 4.72,
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 114739818
+      "youtube_views": 184015318
     },
-    "rank": 12,
+    "rank": 18,
+    "previous_rank": 8,
+    "evolution": "▼ 10"
+  },
+  {
+    "name": "Ayed",
+    "category": "rap",
+    "score": 3.53,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 137665835
+    },
+    "rank": 19,
     "previous_rank": null,
     "evolution": "NEW"
+  },
+  {
+    "name": "7liwa",
+    "category": "rap",
+    "score": 3.28,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 128078685
+    },
+    "rank": 20,
+    "previous_rank": 15,
+    "evolution": "▼ 5"
+  },
+  {
+    "name": "Dizzy DROS",
+    "category": "rap",
+    "score": 3.06,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 119178869
+    },
+    "rank": 21,
+    "previous_rank": 14,
+    "evolution": "▼ 7"
   },
   {
     "name": "Draganov",
@@ -162,37 +279,50 @@
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 112437407
+      "youtube_views": 112437793
     },
-    "rank": 13,
+    "rank": 22,
+    "previous_rank": 13,
+    "evolution": "▼ 9"
+  },
+  {
+    "name": "Hindi Zahra",
+    "category": "traditional",
+    "score": 2.38,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 92865936
+    },
+    "rank": 23,
     "previous_rank": null,
     "evolution": "NEW"
   },
   {
-    "name": "Dizzy DROS",
+    "name": "Kalash Criminel",
     "category": "rap",
-    "score": 2.87,
+    "score": 2.3,
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 111998401
+      "youtube_views": 89687393
     },
-    "rank": 14,
+    "rank": 24,
     "previous_rank": null,
     "evolution": "NEW"
   },
   {
-    "name": "7liwa",
+    "name": "Hamza",
     "category": "rap",
-    "score": 2.5,
+    "score": 2.27,
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 97638235
+      "youtube_views": 88403750
     },
-    "rank": 15,
-    "previous_rank": null,
-    "evolution": "NEW"
+    "rank": 25,
+    "previous_rank": 12,
+    "evolution": "▼ 13"
   },
   {
     "name": "Don Bigg",
@@ -201,22 +331,87 @@
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 75649075
+      "youtube_views": 75649137
     },
-    "rank": 16,
+    "rank": 26,
+    "previous_rank": 16,
+    "evolution": "▼ 10"
+  },
+  {
+    "name": "Sadek",
+    "category": "rap",
+    "score": 0.8,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 31367089
+    },
+    "rank": 27,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Bilal Hassani",
+    "category": "pop",
+    "score": 0.64,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 24931466
+    },
+    "rank": 28,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Carla Bruni",
+    "category": "pop",
+    "score": 0.58,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 22594387
+    },
+    "rank": 29,
     "previous_rank": null,
     "evolution": "NEW"
   },
   {
     "name": "Shayfeen",
     "category": "rap",
-    "score": 0.86,
+    "score": 0.56,
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 33404229
+      "youtube_views": 21829936
     },
-    "rank": 17,
+    "rank": 30,
+    "previous_rank": 17,
+    "evolution": "▼ 13"
+  },
+  {
+    "name": "Oum",
+    "category": "traditional",
+    "score": 0.5,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 19358555
+    },
+    "rank": 31,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Nabyla Maan",
+    "category": "traditional",
+    "score": 0.19,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 7412995
+    },
+    "rank": 32,
     "previous_rank": null,
     "evolution": "NEW"
   },
@@ -227,35 +422,867 @@
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 6323772
+      "youtube_views": 6324148
     },
-    "rank": 18,
-    "previous_rank": null,
-    "evolution": "NEW"
+    "rank": 33,
+    "previous_rank": 18,
+    "evolution": "▼ 15"
   },
   {
     "name": "Hoba Hoba Spirit",
     "category": "traditional",
-    "score": 0.11,
+    "score": 0.13,
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 4351436
+      "youtube_views": 5192718
     },
-    "rank": 19,
+    "rank": 34,
+    "previous_rank": 19,
+    "evolution": "▼ 15"
+  },
+  {
+    "name": "Khtek",
+    "category": "rap",
+    "score": 0.05,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 1816692
+    },
+    "rank": 35,
     "previous_rank": null,
     "evolution": "NEW"
   },
   {
-    "name": "Moroccan Spice",
+    "name": "Grems",
+    "category": "rap",
+    "score": 0.03,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 1227954
+    },
+    "rank": 36,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Omar Sayed",
+    "category": "traditional",
+    "score": 0.02,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 654738
+    },
+    "rank": 37,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Amine Amara",
+    "category": "pop",
+    "score": 0.01,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 281807
+    },
+    "rank": 38,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Anas Abou Ras",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 92606
+    },
+    "rank": 39,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Widad Akedim",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 40,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Fnaïre",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 41,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Maâlem Mahmoud Guinia",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 42,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Mariem Hassan",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 43,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Karim Ziad",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 44,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Jil Jilala",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 45,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Nass El Ghiwane",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 46,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Lamchaheb",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 47,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Ahmed Soultan",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 48,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Abdelaziz Stati",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 49,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Najat Aatabou",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 50,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Amina Alaoui",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 51,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Karima Skalli",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 52,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Faudel",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 53,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Rachid Taha",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 54,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Idir",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 55,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Khaled",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 56,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Gnawa Diffusion",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 57,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Orchestre National de Barbès",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 58,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Aziz Maraka",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 59,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Abdelhadi Belkhayat",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 60,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Latifa Raafat",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 61,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Hamid Zahir",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 62,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Hassan Annefad",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 63,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Dj Van",
     "category": "electronic",
     "score": 0.0,
     "metrics": {
       "spotify_followers": 0,
       "spotify_popularity": 0,
-      "youtube_views": 5971
+      "youtube_views": 0
     },
-    "rank": 20,
+    "rank": 64,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Mehdi Mozayine",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 65,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Zouhair Bahaoui",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 66,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Mohamed Lamine",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 67,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Hicham Mchbal",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 68,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Mustapha Oumguil",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 69,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Raïss El Mekki",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 70,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Hassan El Fad",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 71,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Asmaa Lmnawar",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 72,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Samira Said",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 73,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Hajar Bou Azzouz",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 74,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Asma Lmnawar",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 75,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Abir Layla",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 76,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Ihab Amir",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 77,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Saad El Soghayar",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 78,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Rayane Bensetti",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 79,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Tarik Ahmed",
+    "category": "rap",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 80,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Mobydick",
+    "category": "rap",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 81,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Freeklane",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 82,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Black Flamingo",
+    "category": "electronic",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 83,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Stormzy",
+    "category": "rap",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 84,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Dj Hamida",
+    "category": "electronic",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 85,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Dj Kayz",
+    "category": "electronic",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 86,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Awa Ly",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 87,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Rita Ora",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 88,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Saber Rebai",
+    "category": "pop",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 89,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Abdelhadi El Harrak",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 90,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Hamid El Kasri",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 91,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Hajja Hamdaouia",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 92,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Naima Samih",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 93,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Driss El Maloumi",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 94,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Said Chraibi",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 95,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Abdessalam Alikane",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 96,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Les Frères Zaoui",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 97,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Houssam El Marrakchi",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 98,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Choumicha",
+    "category": "traditional",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 0
+    },
+    "rank": 99,
     "previous_rank": null,
     "evolution": "NEW"
   }
