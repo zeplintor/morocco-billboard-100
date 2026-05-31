@@ -1,0 +1,43 @@
+name: Refresh Morocco Billboard 100 Data
+
+on:
+  schedule:
+    - cron: "0 0 * * 1" # Every Monday at 00:00 UTC
+  workflow_dispatch: # Manual trigger from GitHub UI
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install spotipy google-api-python-client requests
+
+      - name: Run data collector
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python src/scraper.py
+
+      - name: Run scoring pipeline
+        run: python src/pipeline_algo.py
+
+      - name: Commit and push updated ranking
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Billboard Automation Bot"
+          git add data/billboard_current.json data/billboard_history.json
+          git diff-index --quiet HEAD || git commit -m "⚡ Auto-update: Billboard ranking [skip ci]"
+          git push

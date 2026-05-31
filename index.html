@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morocco Billboard 100 — Classement Officiel</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    * { font-family: 'Inter', sans-serif; }
+    body { background-color: #080C14; }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #10b981, #34d399);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .gold-text {
+      background: linear-gradient(135deg, #D4AF37, #F5D060);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .card-hover {
+      transition: background 0.15s ease, transform 0.1s ease;
+    }
+    .card-hover:hover {
+      background: rgba(16, 185, 129, 0.06);
+      transform: translateX(3px);
+    }
+
+    .filter-btn { transition: all 0.15s ease; }
+    .filter-btn.active {
+      background: #059669;
+      color: #fff;
+    }
+
+    .rank-badge-top {
+      background: linear-gradient(135deg, #D4AF37, #F5D060);
+      color: #000;
+    }
+
+    .shimmer {
+      background: linear-gradient(90deg, #111827 25%, #1f2937 50%, #111827 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+    }
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+
+    #search-input:focus { outline: none; border-color: #10b981; }
+
+    .evo-up    { color: #10b981; background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.3); }
+    .evo-down  { color: #ef4444; background: rgba(239,68,68,0.12);  border: 1px solid rgba(239,68,68,0.3); }
+    .evo-new   { color: #f59e0b; background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.3); }
+    .evo-stable{ color: #6b7280; background: rgba(107,114,128,0.1); border: 1px solid rgba(107,114,128,0.2); }
+
+    .cat-badge { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 7px; border-radius: 4px; }
+    .cat-rap         { color: #818cf8; background: rgba(129,140,248,0.12); border: 1px solid rgba(129,140,248,0.25); }
+    .cat-pop         { color: #f472b6; background: rgba(244,114,182,0.12); border: 1px solid rgba(244,114,182,0.25); }
+    .cat-traditional { color: #fb923c; background: rgba(251,146,60,0.12);  border: 1px solid rgba(251,146,60,0.25); }
+    .cat-electronic  { color: #22d3ee; background: rgba(34,211,238,0.12);  border: 1px solid rgba(34,211,238,0.25); }
+  </style>
+</head>
+<body class="text-gray-100 min-h-screen">
+
+  <!-- HEADER -->
+  <header class="border-b border-gray-800/60 bg-gray-900/40 backdrop-blur-xl sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-3 flex flex-col sm:flex-row justify-between items-center gap-3">
+      <div class="flex items-center gap-3">
+        <div class="flex items-center gap-1.5 bg-emerald-900/40 border border-emerald-800/60 px-3 py-1.5 rounded-lg">
+          <span class="text-lg">🇲🇦</span>
+          <span class="font-black text-emerald-400 tracking-tighter text-sm">MA 100</span>
+        </div>
+        <div>
+          <h1 class="text-sm font-black tracking-tight text-white leading-none">MOROCCO <span class="gradient-text">BILLBOARD</span></h1>
+          <p class="text-xs text-gray-500 leading-none mt-0.5" id="updated-at">Chargement…</p>
+        </div>
+      </div>
+      <div class="flex gap-1.5 bg-gray-900 border border-gray-800 p-1 rounded-xl text-xs flex-wrap justify-center">
+        <button data-cat="all"         class="filter-btn active px-3 py-1.5 rounded-lg font-semibold">Général</button>
+        <button data-cat="rap"         class="filter-btn px-3 py-1.5 rounded-lg text-gray-400 hover:text-white font-semibold">Rap / Trap</button>
+        <button data-cat="pop"         class="filter-btn px-3 py-1.5 rounded-lg text-gray-400 hover:text-white font-semibold">Pop & Modern</button>
+        <button data-cat="traditional" class="filter-btn px-3 py-1.5 rounded-lg text-gray-400 hover:text-white font-semibold">Fusion / Chaâbi</button>
+        <button data-cat="electronic"  class="filter-btn px-3 py-1.5 rounded-lg text-gray-400 hover:text-white font-semibold">Électro</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-14 pb-10 text-center">
+    <p class="text-xs font-bold tracking-widest text-emerald-500 uppercase mb-3">Classement Officiel · Semaine <span id="week-label">—</span></p>
+    <h2 class="text-4xl sm:text-5xl font-black text-white leading-tight tracking-tight">
+      Top 100 des Artistes<br /><span class="gradient-text">Marocains</span>
+    </h2>
+    <p class="mt-4 text-gray-400 text-sm max-w-xl mx-auto">
+      Mis à jour chaque lundi — algorithme combinant Spotify, YouTube et viralité réseaux sociaux.
+    </p>
+
+    <!-- SEARCH -->
+    <div class="mt-8 max-w-md mx-auto relative">
+      <div class="absolute inset-y-0 left-3 flex items-center pointer-events-none">
+        <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
+        </svg>
+      </div>
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Rechercher un artiste…"
+        class="w-full bg-gray-900 border border-gray-700 rounded-xl pl-9 pr-4 py-2.5 text-sm text-white placeholder-gray-500 transition-colors"
+      />
+    </div>
+
+    <!-- STATS BAR -->
+    <div class="mt-8 grid grid-cols-3 gap-3 max-w-sm mx-auto" id="stats-bar">
+      <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-3">
+        <p class="text-lg font-black text-white" id="stat-total">—</p>
+        <p class="text-xs text-gray-500">Artistes</p>
+      </div>
+      <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-3">
+        <p class="text-lg font-black text-emerald-400" id="stat-new">—</p>
+        <p class="text-xs text-gray-500">Nouveaux</p>
+      </div>
+      <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-3">
+        <p class="text-lg font-black text-amber-400" id="stat-top3">Top 3</p>
+        <p class="text-xs text-gray-500" id="stat-top3-name">—</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PODIUM (Top 3) -->
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 pb-8" id="podium-section">
+    <div class="grid grid-cols-3 gap-3" id="podium"></div>
+  </section>
+
+  <!-- MAIN LIST -->
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 pb-20">
+    <div class="bg-gray-900/30 border border-gray-800/60 rounded-2xl overflow-hidden backdrop-blur-sm" id="billboard-list">
+      <!-- Skeleton loader -->
+      <div id="skeleton">
+        <div class="shimmer h-16 border-b border-gray-800/40"></div>
+        <div class="shimmer h-16 border-b border-gray-800/40"></div>
+        <div class="shimmer h-16 border-b border-gray-800/40"></div>
+        <div class="shimmer h-16 border-b border-gray-800/40"></div>
+        <div class="shimmer h-16"></div>
+      </div>
+    </div>
+    <p id="empty-state" class="hidden text-center text-gray-500 py-16 text-sm">Aucun artiste trouvé.</p>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-gray-800/60 py-8 text-center text-xs text-gray-600">
+    <p>Morocco Billboard 100 &copy; 2025 — Données issues de Spotify &amp; YouTube. Usage non commercial.</p>
+    <p class="mt-1">Algorithme MinMax pondéré · Mis à jour automatiquement via GitHub Actions.</p>
+  </footer>
+
+  <script>
+    // ────────────────────────────────────────────────────────────────────────
+    // STATE
+    // ────────────────────────────────────────────────────────────────────────
+    let allArtists = [];
+    let activeCategory = 'all';
+    let searchQuery = '';
+
+    // ────────────────────────────────────────────────────────────────────────
+    // MOCK DATA (displayed if billboard_current.json is not yet generated)
+    // ────────────────────────────────────────────────────────────────────────
+    const MOCK_DATA = {
+      updated_at: new Date().toISOString(),
+      week: (() => {
+        const now = new Date();
+        const start = new Date(now.getFullYear(), 0, 1);
+        const week = Math.ceil(((now - start) / 86400000 + start.getDay() + 1) / 7);
+        return `${now.getFullYear()}-W${String(week).padStart(2, '0')}`;
+      })(),
+      artists: [
+        { rank: 1, name: "ElGrandeToto", category: "rap", score: 97.84, evolution: "▲ 2", metrics: { spotify_followers: 2100000, spotify_popularity: 94, youtube_views: 45000000 } },
+        { rank: 2, name: "Dizzy DROS", category: "rap", score: 93.21, evolution: "=", metrics: { spotify_followers: 1850000, spotify_popularity: 91, youtube_views: 38000000 } },
+        { rank: 3, name: "Manal", category: "pop", score: 90.47, evolution: "▲ 1", metrics: { spotify_followers: 1620000, spotify_popularity: 89, youtube_views: 32000000 } },
+        { rank: 4, name: "Saad Lamjarred", category: "pop", score: 88.30, evolution: "▼ 2", metrics: { spotify_followers: 1500000, spotify_popularity: 87, youtube_views: 29000000 } },
+        { rank: 5, name: "7liwa", category: "rap", score: 85.10, evolution: "▲ 3", metrics: { spotify_followers: 1300000, spotify_popularity: 85, youtube_views: 25000000 } },
+        { rank: 6, name: "Issam", category: "rap", score: 82.75, evolution: "=", metrics: { spotify_followers: 1200000, spotify_popularity: 83, youtube_views: 22000000 } },
+        { rank: 7, name: "Shayfeen", category: "rap", score: 80.20, evolution: "NEW", metrics: { spotify_followers: 1100000, spotify_popularity: 81, youtube_views: 20000000 } },
+        { rank: 8, name: "Lbenj", category: "rap", score: 77.65, evolution: "▼ 1", metrics: { spotify_followers: 980000, spotify_popularity: 79, youtube_views: 18500000 } },
+        { rank: 9, name: "Douzi", category: "traditional", score: 74.40, evolution: "▲ 1", metrics: { spotify_followers: 900000, spotify_popularity: 76, youtube_views: 16000000 } },
+        { rank: 10, name: "Hamza", category: "rap", score: 71.80, evolution: "=", metrics: { spotify_followers: 850000, spotify_popularity: 74, youtube_views: 14500000 } },
+        { rank: 11, name: "Fnaire", category: "traditional", score: 68.55, evolution: "▼ 2", metrics: { spotify_followers: 800000, spotify_popularity: 72, youtube_views: 13000000 } },
+        { rank: 12, name: "Muslim", category: "rap", score: 65.30, evolution: "▲ 2", metrics: { spotify_followers: 740000, spotify_popularity: 70, youtube_views: 12000000 } },
+        { rank: 13, name: "Don Bigg", category: "rap", score: 62.10, evolution: "=", metrics: { spotify_followers: 700000, spotify_popularity: 68, youtube_views: 11000000 } },
+        { rank: 14, name: "Aymane Serhani", category: "pop", score: 59.75, evolution: "▲ 4", metrics: { spotify_followers: 650000, spotify_popularity: 66, youtube_views: 10000000 } },
+        { rank: 15, name: "Hoba Hoba Spirit", category: "traditional", score: 57.20, evolution: "=", metrics: { spotify_followers: 610000, spotify_popularity: 64, youtube_views: 9200000 } },
+        { rank: 16, name: "RedOne", category: "pop", score: 54.90, evolution: "▼ 1", metrics: { spotify_followers: 580000, spotify_popularity: 62, youtube_views: 8500000 } },
+        { rank: 17, name: "Draganov", category: "rap", score: 52.40, evolution: "NEW", metrics: { spotify_followers: 540000, spotify_popularity: 60, youtube_views: 7800000 } },
+        { rank: 18, name: "Moroccan Spice", category: "electronic", score: 50.15, evolution: "▲ 1", metrics: { spotify_followers: 510000, spotify_popularity: 58, youtube_views: 7200000 } },
+        { rank: 19, name: "Cheb Khaled", category: "traditional", score: 48.60, evolution: "▼ 3", metrics: { spotify_followers: 490000, spotify_popularity: 56, youtube_views: 6600000 } },
+        { rank: 20, name: "Wegz", category: "pop", score: 46.80, evolution: "=", metrics: { spotify_followers: 460000, spotify_popularity: 54, youtube_views: 6000000 } }
+      ]
+    };
+
+    // ────────────────────────────────────────────────────────────────────────
+    // HELPERS
+    // ────────────────────────────────────────────────────────────────────────
+    function categoryClass(cat) {
+      const map = { rap: 'cat-rap', pop: 'cat-pop', traditional: 'cat-traditional', electronic: 'cat-electronic' };
+      return map[cat] || 'cat-pop';
+    }
+
+    function categoryLabel(cat) {
+      const map = { rap: 'Rap / Trap', pop: 'Pop & Modern', traditional: 'Fusion / Chaâbi', electronic: 'Électro' };
+      return map[cat] || cat;
+    }
+
+    function evoClass(evo) {
+      if (!evo || evo === 'NEW') return 'evo-new';
+      if (evo.startsWith('▲')) return 'evo-up';
+      if (evo.startsWith('▼')) return 'evo-down';
+      return 'evo-stable';
+    }
+
+    function formatNumber(n) {
+      if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
+      if (n >= 1_000) return (n / 1_000).toFixed(0) + 'K';
+      return String(n);
+    }
+
+    function filtered() {
+      return allArtists.filter(a => {
+        const matchCat = activeCategory === 'all' || a.category === activeCategory;
+        const matchSearch = !searchQuery || a.name.toLowerCase().includes(searchQuery.toLowerCase());
+        return matchCat && matchSearch;
+      });
+    }
+
+    // ────────────────────────────────────────────────────────────────────────
+    // RENDER: PODIUM (top 3 global only)
+    // ────────────────────────────────────────────────────────────────────────
+    function renderPodium(artists) {
+      const top3 = artists.slice(0, 3);
+      const podiumSection = document.getElementById('podium-section');
+      const podiumEl = document.getElementById('podium');
+
+      if (activeCategory !== 'all' || searchQuery) {
+        podiumSection.classList.add('hidden');
+        return;
+      }
+      podiumSection.classList.remove('hidden');
+
+      const order = [top3[1], top3[0], top3[2]]; // 2nd, 1st, 3rd visual layout
+      const heights = ['pt-6', 'pt-0', 'pt-10'];
+      const sizes = ['text-3xl', 'text-5xl', 'text-2xl'];
+      const medals = ['🥈', '🥇', '🥉'];
+
+      podiumEl.innerHTML = order.map((a, i) => {
+        if (!a) return '<div></div>';
+        const isFirst = i === 1;
+        return `
+          <div class="${heights[i]} flex flex-col items-center gap-2 text-center">
+            <span class="${sizes[i]}">${medals[i]}</span>
+            <div class="${isFirst ? 'bg-gradient-to-b from-amber-900/40 to-gray-900/60 border-amber-700/60' : 'bg-gray-900/40 border-gray-800'} border rounded-2xl p-4 w-full">
+              <p class="font-black ${isFirst ? 'text-lg gold-text' : 'text-base text-white'}">${a.name}</p>
+              <p class="text-xs text-gray-400 mt-0.5">${categoryLabel(a.category)}</p>
+              <p class="mt-2 text-sm font-bold ${isFirst ? 'text-amber-400' : 'text-emerald-400'}">${a.score} pts</p>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // ────────────────────────────────────────────────────────────────────────
+    // RENDER: MAIN LIST (rank 4+ or filtered)
+    // ────────────────────────────────────────────────────────────────────────
+    function renderList(artists) {
+      const listEl = document.getElementById('billboard-list');
+      const emptyEl = document.getElementById('empty-state');
+
+      // When filtered/searching, show all results; otherwise start from rank 4
+      const showAll = activeCategory !== 'all' || searchQuery;
+      const toRender = showAll ? artists : artists.slice(3);
+
+      if (toRender.length === 0) {
+        listEl.innerHTML = '';
+        emptyEl.classList.remove('hidden');
+        return;
+      }
+      emptyEl.classList.add('hidden');
+
+      listEl.innerHTML = toRender.map(a => `
+        <article class="card-hover flex items-center gap-3 sm:gap-4 px-4 sm:px-6 py-4 border-b border-gray-800/40 last:border-0" role="listitem">
+
+          <!-- RANK -->
+          <div class="w-8 text-center shrink-0">
+            ${a.rank <= 3 && !showAll
+              ? `<div class="rank-badge-top w-7 h-7 rounded-full flex items-center justify-center mx-auto font-black text-xs">${a.rank}</div>`
+              : `<span class="text-base font-black ${a.rank <= 10 ? 'text-white' : 'text-gray-500'}">${a.rank}</span>`
+            }
+          </div>
+
+          <!-- EVOLUTION -->
+          <span class="${evoClass(a.evolution)} cat-badge shrink-0">${a.evolution === 'NEW' ? 'NEW' : a.evolution || '='}</span>
+
+          <!-- ARTIST INFO -->
+          <div class="flex-1 min-w-0">
+            <h3 class="font-bold text-white text-sm sm:text-base truncate">${a.name}</h3>
+            <div class="flex items-center gap-2 mt-0.5">
+              <span class="cat-badge ${categoryClass(a.category)}">${categoryLabel(a.category)}</span>
+              <span class="text-xs text-gray-600 hidden sm:inline">
+                ${formatNumber(a.metrics.spotify_followers)} abonnés · ${formatNumber(a.metrics.youtube_views)} vues YT
+              </span>
+            </div>
+          </div>
+
+          <!-- SCORE -->
+          <div class="text-right shrink-0">
+            <p class="text-sm font-black font-mono ${a.rank === 1 ? 'gold-text' : 'text-emerald-400'}">${a.score}</p>
+            <p class="text-xs text-gray-600">pts</p>
+          </div>
+
+        </article>
+      `).join('');
+    }
+
+    // ────────────────────────────────────────────────────────────────────────
+    // RENDER: STATS
+    // ────────────────────────────────────────────────────────────────────────
+    function renderStats(artists) {
+      const newCount = artists.filter(a => a.evolution === 'NEW').length;
+      document.getElementById('stat-total').textContent = artists.length;
+      document.getElementById('stat-new').textContent = newCount;
+      document.getElementById('stat-top3-name').textContent = artists[0]?.name ?? '—';
+    }
+
+    // ────────────────────────────────────────────────────────────────────────
+    // FULL RENDER
+    // ────────────────────────────────────────────────────────────────────────
+    function render() {
+      const visible = filtered();
+      renderPodium(allArtists);  // podium always uses full top 3
+      renderList(visible);
+    }
+
+    // ────────────────────────────────────────────────────────────────────────
+    // DATA LOADING
+    // ────────────────────────────────────────────────────────────────────────
+    async function loadData() {
+      let data;
+      try {
+        const res = await fetch('./data/billboard_current.json', { cache: 'no-cache' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        data = await res.json();
+      } catch (err) {
+        console.warn('Could not load billboard_current.json, using mock data.', err);
+        data = MOCK_DATA;
+      }
+
+      allArtists = data.artists ?? [];
+      document.getElementById('skeleton').remove();
+      document.getElementById('week-label').textContent = data.week ?? '—';
+
+      if (data.updated_at) {
+        const d = new Date(data.updated_at);
+        document.getElementById('updated-at').textContent =
+          'Mis à jour le ' + d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' });
+      }
+
+      renderStats(allArtists);
+      render();
+    }
+
+    // ────────────────────────────────────────────────────────────────────────
+    // EVENTS
+    // ────────────────────────────────────────────────────────────────────────
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeCategory = btn.dataset.cat;
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        render();
+      });
+    });
+
+    document.getElementById('search-input').addEventListener('input', e => {
+      searchQuery = e.target.value.trim();
+      render();
+    });
+
+    // ────────────────────────────────────────────────────────────────────────
+    // INIT
+    // ────────────────────────────────────────────────────────────────────────
+    window.addEventListener('DOMContentLoaded', loadData);
+  </script>
+</body>
+</html>
