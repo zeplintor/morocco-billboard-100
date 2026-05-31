@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Saad Lamjarred",
+    "category": "pop",
+    "score": 35.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 1364871357
+    },
+    "rank": 1,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Aymane Serhani",
+    "category": "pop",
+    "score": 17.35,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 676760158
+    },
+    "rank": 2,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Cheb Khaled",
+    "category": "traditional",
+    "score": 14.07,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 548538643
+    },
+    "rank": 3,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Wegz",
+    "category": "pop",
+    "score": 12.93,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 504156264
+    },
+    "rank": 4,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Fnaire",
+    "category": "traditional",
+    "score": 9.87,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 385002319
+    },
+    "rank": 5,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "RedOne",
+    "category": "pop",
+    "score": 9.75,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 380066946
+    },
+    "rank": 6,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Muslim",
+    "category": "rap",
+    "score": 8.9,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 347168788
+    },
+    "rank": 7,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Lbenj",
+    "category": "rap",
+    "score": 6.65,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 259324409
+    },
+    "rank": 8,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Issam",
+    "category": "rap",
+    "score": 5.67,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 220931228
+    },
+    "rank": 9,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Manal",
+    "category": "pop",
+    "score": 5.26,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 205016969
+    },
+    "rank": 10,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "ElGrandeToto",
+    "category": "rap",
+    "score": 5.07,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 197802558
+    },
+    "rank": 11,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Hamza",
+    "category": "rap",
+    "score": 2.94,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 114739818
+    },
+    "rank": 12,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Draganov",
+    "category": "rap",
+    "score": 2.88,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 112437407
+    },
+    "rank": 13,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Dizzy DROS",
+    "category": "rap",
+    "score": 2.87,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 111998401
+    },
+    "rank": 14,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "7liwa",
+    "category": "rap",
+    "score": 2.5,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 97638235
+    },
+    "rank": 15,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Don Bigg",
+    "category": "rap",
+    "score": 1.94,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 75649075
+    },
+    "rank": 16,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Shayfeen",
+    "category": "rap",
+    "score": 0.86,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 33404229
+    },
+    "rank": 17,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Douzi",
+    "category": "traditional",
+    "score": 0.16,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 6323772
+    },
+    "rank": 18,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Hoba Hoba Spirit",
+    "category": "traditional",
+    "score": 0.11,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 4351436
+    },
+    "rank": 19,
+    "previous_rank": null,
+    "evolution": "NEW"
+  },
+  {
+    "name": "Moroccan Spice",
+    "category": "electronic",
+    "score": 0.0,
+    "metrics": {
+      "spotify_followers": 0,
+      "spotify_popularity": 0,
+      "youtube_views": 5971
+    },
+    "rank": 20,
+    "previous_rank": null,
+    "evolution": "NEW"
+  }
+]
