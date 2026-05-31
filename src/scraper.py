@@ -1,6 +1,12 @@
 """
 Agent 1 — DATA-COLLECTOR
-Fetches real streaming metrics from Spotify and YouTube for each artist.
+Sources:
+  - Deezer public API (no key) → fans, albums, artist image
+  - YouTube Data API v3 → views of last 3 clips
+  - Spotify link (via Deezer external_urls) → for UI display only
+    Note: Spotify removed popularity/followers from Client Credentials
+    responses in 2024. Deezer covers the same data reliably.
+  - Anghami: no public API available.
 """
 
 import os
@@ -10,8 +16,6 @@ import logging
 from pathlib import Path
 
 import requests
-from spotipy import Spotify
-from spotipy.oauth2 import SpotifyClientCredentials
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
@@ -20,42 +24,51 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 ARTISTS_FILE = DATA_DIR / "initial_artists.json"
 RAW_OUTPUT_FILE = DATA_DIR / "raw_metrics.json"
 
+DEEZER_SEARCH_URL = "https://api.deezer.com/search/artist"
+DEEZER_ARTIST_URL = "https://api.deezer.com/artist"
 YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 YOUTUBE_VIDEOS_URL = "https://www.googleapis.com/youtube/v3/videos"
 
 
-def _spotify_client() -> Spotify:
-    auth = SpotifyClientCredentials(
-        client_id=os.environ["SPOTIFY_CLIENT_ID"],
-        client_secret=os.environ["SPOTIFY_CLIENT_SECRET"],
-    )
-    return Spotify(auth_manager=auth)
+# ─── DEEZER ──────────────────────────────────────────────────────────────────
 
-
-def get_spotify_data(sp: Spotify, artist_name: str) -> dict:
-    """
-    Search returns a simplified artist object (no followers).
-    We need a second call to sp.artist(id) to get the full object.
-    """
+def get_deezer_data(artist_name: str) -> dict:
+    """Deezer public API — zero API key required."""
     try:
-        results = sp.search(q=artist_name, type="artist", limit=1)
-        items = results["artists"]["items"]
+        resp = requests.get(
+            DEEZER_SEARCH_URL,
+            params={"q": artist_name, "limit": 1},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        items = resp.json().get("data", [])
         if not items:
-            log.warning("Spotify: not found — %s", artist_name)
-            return {"spotify_followers": 0, "spotify_popularity": 0, "spotify_image": ""}
+            log.warning("Deezer: not found — %s", artist_name)
+            return _empty_deezer()
 
         artist_id = items[0]["id"]
-        # Full artist object includes followers
-        full = sp.artist(artist_id)
+        full = requests.get(f"{DEEZER_ARTIST_URL}/{artist_id}", timeout=10).json()
+        fans = full.get("nb_fan", 0)
+        albums = full.get("nb_album", 0)
+        image = full.get("picture_medium", "")
+        deezer_link = full.get("link", "")
+        log.info("  Deezer: fans=%d, albums=%d", fans, albums)
         return {
-            "spotify_followers": full["followers"]["total"],
-            "spotify_popularity": full["popularity"],
-            "spotify_image": full["images"][0]["url"] if full["images"] else "",
+            "deezer_fans": fans,
+            "deezer_albums": albums,
+            "artist_image": image,
+            "deezer_link": deezer_link,
         }
     except Exception as exc:
-        log.error("Spotify error for %s: %s", artist_name, exc)
-        return {"spotify_followers": 0, "spotify_popularity": 0, "spotify_image": ""}
+        log.error("Deezer error for %s: %s", artist_name, exc)
+        return _empty_deezer()
 
+
+def _empty_deezer() -> dict:
+    return {"deezer_fans": 0, "deezer_albums": 0, "artist_image": "", "deezer_link": ""}
+
+
+# ─── YOUTUBE ─────────────────────────────────────────────────────────────────
 
 def _youtube_video_ids(api_key: str, artist_name: str, max_results: int = 3) -> list:
     params = {
@@ -91,35 +104,42 @@ def get_youtube_views(artist_name: str) -> dict:
     api_key = os.environ.get("YOUTUBE_API_KEY", "")
     if not api_key:
         log.warning("YOUTUBE_API_KEY not set — defaulting to 0 for %s", artist_name)
-        return {"youtube_views_estimate": 0}
+        return {"youtube_views": 0}
     try:
         video_ids = _youtube_video_ids(api_key, artist_name)
         views = _youtube_total_views(api_key, video_ids)
-        log.info("  YouTube: %s → %d views", artist_name, views)
-        return {"youtube_views_estimate": views}
+        log.info("  YouTube: %d views (%d videos)", views, len(video_ids))
+        return {"youtube_views": views}
     except Exception as exc:
         log.error("YouTube error for %s: %s", artist_name, exc)
-        return {"youtube_views_estimate": 0}
+        return {"youtube_views": 0}
 
+
+# ─── MAIN ────────────────────────────────────────────────────────────────────
 
 def collect_all(artists: list) -> list:
-    sp = _spotify_client()
     raw_data = []
     for artist in artists:
         name = artist["name"]
         log.info("Collecting — %s", name)
-        spotify_metrics = get_spotify_data(sp, name)
-        log.info("  Spotify: followers=%d, popularity=%d",
-                 spotify_metrics["spotify_followers"],
-                 spotify_metrics["spotify_popularity"])
-        youtube_metrics = get_youtube_views(name)
+        deezer = get_deezer_data(name)
+        youtube = get_youtube_views(name)
+        # Build Spotify search link for UI display (no data fetched)
+        spotify_search_link = (
+            f"https://open.spotify.com/search/{requests.utils.quote(name)}"
+        )
+        anghami_search_link = (
+            f"https://play.anghami.com/search/{requests.utils.quote(name)}"
+        )
         raw_data.append({
             "name": name,
             "category": artist["category"],
-            **spotify_metrics,
-            **youtube_metrics,
+            **deezer,
+            **youtube,
+            "spotify_link": spotify_search_link,
+            "anghami_link": anghami_search_link,
         })
-        time.sleep(0.2)
+        time.sleep(0.3)
     return raw_data
 
 
@@ -136,9 +156,11 @@ def main() -> None:
     with RAW_OUTPUT_FILE.open("w") as f:
         json.dump(raw_data, f, ensure_ascii=False, indent=2)
 
-    found = sum(1 for a in raw_data if a["spotify_followers"] > 0)
-    log.info("Raw metrics saved → %s (%d/%d artists found on Spotify)",
-             RAW_OUTPUT_FILE, found, len(raw_data))
+    found = sum(1 for a in raw_data if a["deezer_fans"] > 0)
+    log.info(
+        "Raw metrics saved → %s (%d/%d artists found on Deezer)",
+        RAW_OUTPUT_FILE, found, len(raw_data),
+    )
 
 
 if __name__ == "__main__":
