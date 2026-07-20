@@ -2,7 +2,7 @@
   {
     "name": "Saad Lamjarred",
     "category": "pop",
-    "score": 44.56,
+    "score": 66.2,
     "artist_image": "https://cdn-images.dzcdn.net/images/artist/9b810d078ffa8e9121190099bd6d5368/250x250-000000-80-0-0.jpg",
     "links": {
       "deezer": "https://www.deezer.com/artist/4042249",
@@ -10,8 +10,8 @@
       "anghami": "https://play.anghami.com/search/Saad%20Lamjarred"
     },
     "metrics": {
-      "deezer_fans": 503374,
-      "youtube_views": 1972602913,
+      "deezer_fans": 503495,
+      "youtube_views": 1647550637,
       "deezer_albums": 50
     },
     "rank": 1,
@@ -19,28 +19,28 @@
     "evolution": "="
   },
   {
-    "name": "Fnaire",
-    "category": "traditional",
-    "score": 37.06,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/1a695ee9c2cb49fab81d408836100ff3/250x250-000000-80-0-0.jpg",
+    "name": "Dj Hamida",
+    "category": "electronic",
+    "score": 38.95,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/e38bda642dd3fce4e4c183e4bfd832ab/250x250-000000-80-0-0.jpg",
     "links": {
-      "deezer": "https://www.deezer.com/artist/165930",
-      "spotify": "https://open.spotify.com/search/Fnaire",
-      "anghami": "https://play.anghami.com/search/Fnaire"
+      "deezer": "https://www.deezer.com/artist/404672",
+      "spotify": "https://open.spotify.com/search/Dj%20Hamida",
+      "anghami": "https://play.anghami.com/search/Dj%20Hamida"
     },
     "metrics": {
-      "deezer_fans": 3968177,
-      "youtube_views": 101083510,
-      "deezer_albums": 126
+      "deezer_fans": 675100,
+      "youtube_views": 161480643,
+      "deezer_albums": 60
     },
     "rank": 2,
-    "previous_rank": 12,
-    "evolution": "▲ 10"
+    "previous_rank": 11,
+    "evolution": "▲ 9"
   },
   {
     "name": "Hicham Mchbal",
     "category": "traditional",
-    "score": 28.6,
+    "score": 30.89,
     "artist_image": "",
     "links": {
       "deezer": "",
@@ -49,55 +49,17 @@
     },
     "metrics": {
       "deezer_fans": 0,
-      "youtube_views": 177462496,
+      "youtube_views": 242670889,
       "deezer_albums": 0
     },
     "rank": 3,
-    "previous_rank": 8,
-    "evolution": "▲ 5"
-  },
-  {
-    "name": "Zouhair Bahaoui",
-    "category": "pop",
-    "score": 27.55,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/1a55da69f3c650f4bda4cc9d27b82ad6/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/12526316",
-      "spotify": "https://open.spotify.com/search/Zouhair%20Bahaoui",
-      "anghami": "https://play.anghami.com/search/Zouhair%20Bahaoui"
-    },
-    "metrics": {
-      "deezer_fans": 215881,
-      "youtube_views": 1257633505,
-      "deezer_albums": 29
-    },
-    "rank": 4,
-    "previous_rank": 5,
-    "evolution": "▲ 1"
-  },
-  {
-    "name": "Dj Van",
-    "category": "electronic",
-    "score": 16.78,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/23662f5c0bcf47b301440545d88a663a/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/14687",
-      "spotify": "https://open.spotify.com/search/Dj%20Van",
-      "anghami": "https://play.anghami.com/search/Dj%20Van"
-    },
-    "metrics": {
-      "deezer_fans": 1821728,
-      "youtube_views": 34630420,
-      "deezer_albums": 55
-    },
-    "rank": 5,
-    "previous_rank": 2,
-    "evolution": "▼ 3"
+    "previous_rank": 3,
+    "evolution": "="
   },
   {
     "name": "Aymane Serhani",
     "category": "pop",
-    "score": 15.8,
+    "score": 26.78,
     "artist_image": "https://cdn-images.dzcdn.net/images/artist/cdd0ab1ab843e88494b32f819ae6c879/250x250-000000-80-0-0.jpg",
     "links": {
       "deezer": "https://www.deezer.com/artist/5384684",
@@ -105,18 +67,132 @@
       "anghami": "https://play.anghami.com/search/Aymane%20Serhani"
     },
     "metrics": {
-      "deezer_fans": 214989,
-      "youtube_views": 680690660,
+      "deezer_fans": 215014,
+      "youtube_views": 640298173,
       "deezer_albums": 36
     },
+    "rank": 4,
+    "previous_rank": 6,
+    "evolution": "▲ 2"
+  },
+  {
+    "name": "Zouhair Bahaoui",
+    "category": "pop",
+    "score": 25.67,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/223667465",
+      "spotify": "https://open.spotify.com/search/Zouhair%20Bahaoui",
+      "anghami": "https://play.anghami.com/search/Zouhair%20Bahaoui"
+    },
+    "metrics": {
+      "deezer_fans": 336,
+      "youtube_views": 945729764,
+      "deezer_albums": 2
+    },
+    "rank": 5,
+    "previous_rank": 4,
+    "evolution": "▼ 1"
+  },
+  {
+    "name": "Dystinct",
+    "category": "rap",
+    "score": 22.99,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/1d94ff261ce4931020ae8087e7557993/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/10807780",
+      "spotify": "https://open.spotify.com/search/Dystinct",
+      "anghami": "https://play.anghami.com/search/Dystinct"
+    },
+    "metrics": {
+      "deezer_fans": 245154,
+      "youtube_views": 420880396,
+      "deezer_albums": 75
+    },
     "rank": 6,
-    "previous_rank": 7,
-    "evolution": "▲ 1"
+    "previous_rank": 12,
+    "evolution": "▲ 6"
+  },
+  {
+    "name": "Wegz",
+    "category": "rap",
+    "score": 19.14,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/e7c90de2e69caa1470cc98631682ec5d/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/96806962",
+      "spotify": "https://open.spotify.com/search/Wegz",
+      "anghami": "https://play.anghami.com/search/Wegz"
+    },
+    "metrics": {
+      "deezer_fans": 31,
+      "youtube_views": 518200310,
+      "deezer_albums": 16
+    },
+    "rank": 7,
+    "previous_rank": 10,
+    "evolution": "▲ 3"
+  },
+  {
+    "name": "Muslim",
+    "category": "rap",
+    "score": 17.5,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/3c4161bb3b0580b3a6ae27867eaf1e07/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/301825711",
+      "spotify": "https://open.spotify.com/search/Muslim",
+      "anghami": "https://play.anghami.com/search/Muslim"
+    },
+    "metrics": {
+      "deezer_fans": 4,
+      "youtube_views": 224996106,
+      "deezer_albums": 0
+    },
+    "rank": 8,
+    "previous_rank": 16,
+    "evolution": "▲ 8"
+  },
+  {
+    "name": "Ayed",
+    "category": "rap",
+    "score": 13.61,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/bbbb0d835e010050b510f3856183cb4c/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/223880415",
+      "spotify": "https://open.spotify.com/search/Ayed",
+      "anghami": "https://play.anghami.com/search/Ayed"
+    },
+    "metrics": {
+      "deezer_fans": 7,
+      "youtube_views": 203859182,
+      "deezer_albums": 6
+    },
+    "rank": 9,
+    "previous_rank": 20,
+    "evolution": "▲ 11"
+  },
+  {
+    "name": "Dizzy DROS",
+    "category": "rap",
+    "score": 13.21,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/49fbeefc65edca342ad088ec08740bc3/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/5361605",
+      "spotify": "https://open.spotify.com/search/Dizzy%20DROS",
+      "anghami": "https://play.anghami.com/search/Dizzy%20DROS"
+    },
+    "metrics": {
+      "deezer_fans": 204809,
+      "youtube_views": 105290415,
+      "deezer_albums": 29
+    },
+    "rank": 10,
+    "previous_rank": 21,
+    "evolution": "▲ 11"
   },
   {
     "name": "Abdelhadi El Harrak",
     "category": "traditional",
-    "score": 14.58,
+    "score": 12.87,
     "artist_image": "",
     "links": {
       "deezer": "",
@@ -125,207 +201,36 @@
     },
     "metrics": {
       "deezer_fans": 0,
-      "youtube_views": 51975710,
+      "youtube_views": 52260804,
       "deezer_albums": 0
-    },
-    "rank": 7,
-    "previous_rank": 3,
-    "evolution": "▼ 4"
-  },
-  {
-    "name": "Hamza",
-    "category": "rap",
-    "score": 11.73,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/943814c7c1558fd0afd0aafbc2ebef03/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/171998",
-      "spotify": "https://open.spotify.com/search/Hamza",
-      "anghami": "https://play.anghami.com/search/Hamza"
-    },
-    "metrics": {
-      "deezer_fans": 1201167,
-      "youtube_views": 55155759,
-      "deezer_albums": 61
-    },
-    "rank": 8,
-    "previous_rank": 4,
-    "evolution": "▼ 4"
-  },
-  {
-    "name": "Raïss El Mekki",
-    "category": "traditional",
-    "score": 11.5,
-    "artist_image": "",
-    "links": {
-      "deezer": "",
-      "spotify": "https://open.spotify.com/search/Ra%C3%AFss%20El%20Mekki",
-      "anghami": "https://play.anghami.com/search/Ra%C3%AFss%20El%20Mekki"
-    },
-    "metrics": {
-      "deezer_fans": 0,
-      "youtube_views": 33273446,
-      "deezer_albums": 0
-    },
-    "rank": 9,
-    "previous_rank": 33,
-    "evolution": "▲ 24"
-  },
-  {
-    "name": "Wegz",
-    "category": "rap",
-    "score": 11.21,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/253117952",
-      "spotify": "https://open.spotify.com/search/Wegz",
-      "anghami": "https://play.anghami.com/search/Wegz"
-    },
-    "metrics": {
-      "deezer_fans": 2664,
-      "youtube_views": 510919694,
-      "deezer_albums": 57
-    },
-    "rank": 10,
-    "previous_rank": 11,
-    "evolution": "▲ 1"
-  },
-  {
-    "name": "Dj Hamida",
-    "category": "electronic",
-    "score": 10.44,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/e38bda642dd3fce4e4c183e4bfd832ab/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/404672",
-      "spotify": "https://open.spotify.com/search/Dj%20Hamida",
-      "anghami": "https://play.anghami.com/search/Dj%20Hamida"
-    },
-    "metrics": {
-      "deezer_fans": 674758,
-      "youtube_views": 219847036,
-      "deezer_albums": 60
     },
     "rank": 11,
-    "previous_rank": 6,
-    "evolution": "▼ 5"
+    "previous_rank": 7,
+    "evolution": "▼ 4"
   },
   {
-    "name": "Dystinct",
-    "category": "rap",
-    "score": 9.87,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/1d94ff261ce4931020ae8087e7557993/250x250-000000-80-0-0.jpg",
+    "name": "Douzi",
+    "category": "traditional",
+    "score": 12.84,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/8d9638098ec6d9342fcf75036f5dcbab/250x250-000000-80-0-0.jpg",
     "links": {
-      "deezer": "https://www.deezer.com/artist/10807780",
-      "spotify": "https://open.spotify.com/search/Dystinct",
-      "anghami": "https://play.anghami.com/search/Dystinct"
+      "deezer": "https://www.deezer.com/artist/1211141",
+      "spotify": "https://open.spotify.com/search/Douzi",
+      "anghami": "https://play.anghami.com/search/Douzi"
     },
     "metrics": {
-      "deezer_fans": 244525,
-      "youtube_views": 376733881,
-      "deezer_albums": 75
+      "deezer_fans": 244502,
+      "youtube_views": 6558973,
+      "deezer_albums": 44
     },
     "rank": 12,
-    "previous_rank": 10,
-    "evolution": "▼ 2"
-  },
-  {
-    "name": "RedOne",
-    "category": "pop",
-    "score": 8.59,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d7773aea52d6037175b3c133559ccc71/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/1676038",
-      "spotify": "https://open.spotify.com/search/RedOne",
-      "anghami": "https://play.anghami.com/search/RedOne"
-    },
-    "metrics": {
-      "deezer_fans": 69105,
-      "youtube_views": 386445692,
-      "deezer_albums": 40
-    },
-    "rank": 13,
-    "previous_rank": 13,
-    "evolution": "="
-  },
-  {
-    "name": "ElGrandeToto",
-    "category": "rap",
-    "score": 7.93,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/dae5e8616f907599e3d0be7b04131ac1/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/52463032",
-      "spotify": "https://open.spotify.com/search/ElGrandeToto",
-      "anghami": "https://play.anghami.com/search/ElGrandeToto"
-    },
-    "metrics": {
-      "deezer_fans": 558849,
-      "youtube_views": 146609442,
-      "deezer_albums": 111
-    },
-    "rank": 14,
-    "previous_rank": 9,
-    "evolution": "▼ 5"
-  },
-  {
-    "name": "Manal",
-    "category": "pop",
-    "score": 6.26,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/5a768bc3b27df7178feca760f32247fd/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/451940",
-      "spotify": "https://open.spotify.com/search/Manal",
-      "anghami": "https://play.anghami.com/search/Manal"
-    },
-    "metrics": {
-      "deezer_fans": 95393,
-      "youtube_views": 262214385,
-      "deezer_albums": 33
-    },
-    "rank": 15,
-    "previous_rank": 17,
-    "evolution": "▲ 2"
-  },
-  {
-    "name": "Muslim",
-    "category": "rap",
-    "score": 5.7,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/66b997f5cd5bc5e9f5762955b905d699/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/341109",
-      "spotify": "https://open.spotify.com/search/Muslim",
-      "anghami": "https://play.anghami.com/search/Muslim"
-    },
-    "metrics": {
-      "deezer_fans": 223277,
-      "youtube_views": 181164577,
-      "deezer_albums": 41
-    },
-    "rank": 16,
-    "previous_rank": 14,
-    "evolution": "▼ 2"
-  },
-  {
-    "name": "Issam",
-    "category": "rap",
-    "score": 5.19,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/bf3e72eb9e894e2fb37f2a65a9369e67/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/342125",
-      "spotify": "https://open.spotify.com/search/Issam",
-      "anghami": "https://play.anghami.com/search/Issam"
-    },
-    "metrics": {
-      "deezer_fans": 61435,
-      "youtube_views": 223433394,
-      "deezer_albums": 18
-    },
-    "rank": 17,
-    "previous_rank": 32,
-    "evolution": "▲ 15"
+    "previous_rank": 29,
+    "evolution": "▲ 17"
   },
   {
     "name": "Lbenj",
     "category": "rap",
-    "score": 5.19,
+    "score": 12.32,
     "artist_image": "https://cdn-images.dzcdn.net/images/artist/c4225d76be9080eccd1c6e0f88935dd7/250x250-000000-80-0-0.jpg",
     "links": {
       "deezer": "https://www.deezer.com/artist/12853731",
@@ -333,75 +238,18 @@
       "anghami": "https://play.anghami.com/search/Lbenj"
     },
     "metrics": {
-      "deezer_fans": 147829,
-      "youtube_views": 188511038,
+      "deezer_fans": 147866,
+      "youtube_views": 189296300,
       "deezer_albums": 66
     },
-    "rank": 18,
-    "previous_rank": 15,
-    "evolution": "▼ 3"
-  },
-  {
-    "name": "Asma Lmnawar",
-    "category": "pop",
-    "score": 4.32,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/6d25b648c987556af4b591673cb15ede/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/100473",
-      "spotify": "https://open.spotify.com/search/Asma%20Lmnawar",
-      "anghami": "https://play.anghami.com/search/Asma%20Lmnawar"
-    },
-    "metrics": {
-      "deezer_fans": 96116,
-      "youtube_views": 167157939,
-      "deezer_albums": 13
-    },
-    "rank": 19,
-    "previous_rank": 22,
-    "evolution": "▲ 3"
-  },
-  {
-    "name": "Ayed",
-    "category": "rap",
-    "score": 4.13,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d894a4bc590d15c7ec9d48c4c2e0b8e9/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/10826680",
-      "spotify": "https://open.spotify.com/search/Ayed",
-      "anghami": "https://play.anghami.com/search/Ayed"
-    },
-    "metrics": {
-      "deezer_fans": 129962,
-      "youtube_views": 143999295,
-      "deezer_albums": 60
-    },
-    "rank": 20,
-    "previous_rank": 16,
-    "evolution": "▼ 4"
-  },
-  {
-    "name": "Dizzy DROS",
-    "category": "rap",
-    "score": 3.94,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/49fbeefc65edca342ad088ec08740bc3/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/5361605",
-      "spotify": "https://open.spotify.com/search/Dizzy%20DROS",
-      "anghami": "https://play.anghami.com/search/Dizzy%20DROS"
-    },
-    "metrics": {
-      "deezer_fans": 204721,
-      "youtube_views": 103300873,
-      "deezer_albums": 29
-    },
-    "rank": 21,
+    "rank": 13,
     "previous_rank": 18,
-    "evolution": "▼ 3"
+    "evolution": "▲ 5"
   },
   {
     "name": "Draganov",
     "category": "rap",
-    "score": 3.93,
+    "score": 11.69,
     "artist_image": "https://cdn-images.dzcdn.net/images/artist/75940491c060833324ba0c8b3dd83acd/250x250-000000-80-0-0.jpg",
     "links": {
       "deezer": "https://www.deezer.com/artist/14635923",
@@ -409,37 +257,132 @@
       "anghami": "https://play.anghami.com/search/Draganov"
     },
     "metrics": {
-      "deezer_fans": 168818,
-      "youtube_views": 117897389,
+      "deezer_fans": 168988,
+      "youtube_views": 118766390,
       "deezer_albums": 35
     },
-    "rank": 22,
+    "rank": 14,
+    "previous_rank": 22,
+    "evolution": "▲ 8"
+  },
+  {
+    "name": "Asma Lmnawar",
+    "category": "pop",
+    "score": 9.65,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/6d25b648c987556af4b591673cb15ede/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/100473",
+      "spotify": "https://open.spotify.com/search/Asma%20Lmnawar",
+      "anghami": "https://play.anghami.com/search/Asma%20Lmnawar"
+    },
+    "metrics": {
+      "deezer_fans": 96128,
+      "youtube_views": 189168615,
+      "deezer_albums": 13
+    },
+    "rank": 15,
     "previous_rank": 19,
+    "evolution": "▲ 4"
+  },
+  {
+    "name": "RedOne",
+    "category": "pop",
+    "score": 9.52,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d7773aea52d6037175b3c133559ccc71/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/1676038",
+      "spotify": "https://open.spotify.com/search/RedOne",
+      "anghami": "https://play.anghami.com/search/RedOne"
+    },
+    "metrics": {
+      "deezer_fans": 69124,
+      "youtube_views": 240736134,
+      "deezer_albums": 40
+    },
+    "rank": 16,
+    "previous_rank": 13,
     "evolution": "▼ 3"
   },
   {
-    "name": "7liwa",
-    "category": "rap",
-    "score": 3.66,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/802a07176ad7b924fef5ef89480fcdca/250x250-000000-80-0-0.jpg",
+    "name": "Hindi Zahra",
+    "category": "traditional",
+    "score": 8.92,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/18f936f58d1c70678905db7e689db4f8/250x250-000000-80-0-0.jpg",
     "links": {
-      "deezer": "https://www.deezer.com/artist/10960696",
-      "spotify": "https://open.spotify.com/search/7liwa",
-      "anghami": "https://play.anghami.com/search/7liwa"
+      "deezer": "https://www.deezer.com/artist/298133",
+      "spotify": "https://open.spotify.com/search/Hindi%20Zahra",
+      "anghami": "https://play.anghami.com/search/Hindi%20Zahra"
     },
     "metrics": {
-      "deezer_fans": 184754,
-      "youtube_views": 97874334,
-      "deezer_albums": 38
+      "deezer_fans": 127818,
+      "youtube_views": 92802337,
+      "deezer_albums": 8
     },
-    "rank": 23,
-    "previous_rank": 23,
-    "evolution": "="
+    "rank": 17,
+    "previous_rank": 27,
+    "evolution": "▲ 10"
+  },
+  {
+    "name": "Shayfeen",
+    "category": "rap",
+    "score": 8.82,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/c75d84e3abd20e35bd04c38bb3a69f3d/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/9841534",
+      "spotify": "https://open.spotify.com/search/Shayfeen",
+      "anghami": "https://play.anghami.com/search/Shayfeen"
+    },
+    "metrics": {
+      "deezer_fans": 153960,
+      "youtube_views": 33590101,
+      "deezer_albums": 15
+    },
+    "rank": 18,
+    "previous_rank": 30,
+    "evolution": "▲ 12"
+  },
+  {
+    "name": "Issam",
+    "category": "rap",
+    "score": 8.72,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/bf3e72eb9e894e2fb37f2a65a9369e67/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/342125",
+      "spotify": "https://open.spotify.com/search/Issam",
+      "anghami": "https://play.anghami.com/search/Issam"
+    },
+    "metrics": {
+      "deezer_fans": 61445,
+      "youtube_views": 223863436,
+      "deezer_albums": 18
+    },
+    "rank": 19,
+    "previous_rank": 17,
+    "evolution": "▼ 2"
+  },
+  {
+    "name": "Don Bigg",
+    "category": "rap",
+    "score": 8.28,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/8eada9baade53a334a1466850d2baec9/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/342437",
+      "spotify": "https://open.spotify.com/search/Don%20Bigg",
+      "anghami": "https://play.anghami.com/search/Don%20Bigg"
+    },
+    "metrics": {
+      "deezer_fans": 130222,
+      "youtube_views": 61718715,
+      "deezer_albums": 28
+    },
+    "rank": 20,
+    "previous_rank": 28,
+    "evolution": "▲ 8"
   },
   {
     "name": "Mehdi Mozayine",
     "category": "pop",
-    "score": 3.46,
+    "score": 7.67,
     "artist_image": "https://cdn-images.dzcdn.net/images/artist/76c17eefc3b4db330c416fab80e46132/250x250-000000-80-0-0.jpg",
     "links": {
       "deezer": "https://www.deezer.com/artist/7882788",
@@ -447,37 +390,265 @@
       "anghami": "https://play.anghami.com/search/Mehdi%20Mozayine"
     },
     "metrics": {
-      "deezer_fans": 84372,
-      "youtube_views": 130072972,
+      "deezer_fans": 84384,
+      "youtube_views": 133195416,
       "deezer_albums": 23
     },
-    "rank": 24,
-    "previous_rank": 25,
+    "rank": 21,
+    "previous_rank": 24,
+    "evolution": "▲ 3"
+  },
+  {
+    "name": "7liwa",
+    "category": "rap",
+    "score": 6.98,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/278424651",
+      "spotify": "https://open.spotify.com/search/7liwa",
+      "anghami": "https://play.anghami.com/search/7liwa"
+    },
+    "metrics": {
+      "deezer_fans": 12,
+      "youtube_views": 98228411,
+      "deezer_albums": 1
+    },
+    "rank": 22,
+    "previous_rank": 23,
     "evolution": "▲ 1"
   },
   {
-    "name": "Anas Abou Ras",
-    "category": "pop",
-    "score": 3.27,
-    "artist_image": "",
+    "name": "Fnaire",
+    "category": "traditional",
+    "score": 6.41,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/96aa9f8b6c24515247323ca1557950bf/250x250-000000-80-0-0.jpg",
     "links": {
-      "deezer": "",
-      "spotify": "https://open.spotify.com/search/Anas%20Abou%20Ras",
-      "anghami": "https://play.anghami.com/search/Anas%20Abou%20Ras"
+      "deezer": "https://www.deezer.com/artist/2469601",
+      "spotify": "https://open.spotify.com/search/Fnaire",
+      "anghami": "https://play.anghami.com/search/Fnaire"
     },
     "metrics": {
-      "deezer_fans": 0,
-      "youtube_views": 2919229,
+      "deezer_fans": 93832,
+      "youtube_views": 62091368,
       "deezer_albums": 0
     },
+    "rank": 23,
+    "previous_rank": 2,
+    "evolution": "▼ 21"
+  },
+  {
+    "name": "Manal",
+    "category": "pop",
+    "score": 5.83,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/451539dbf06f0256ed6d9688dd7d289c/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/14574983",
+      "spotify": "https://open.spotify.com/search/Manal",
+      "anghami": "https://play.anghami.com/search/Manal"
+    },
+    "metrics": {
+      "deezer_fans": 1242,
+      "youtube_views": 210090894,
+      "deezer_albums": 5
+    },
+    "rank": 24,
+    "previous_rank": 15,
+    "evolution": "▼ 9"
+  },
+  {
+    "name": "Hamza",
+    "category": "rap",
+    "score": 5.53,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/a316b27353d7553fe87ab524f8eeecdc/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/162780847",
+      "spotify": "https://open.spotify.com/search/Hamza",
+      "anghami": "https://play.anghami.com/search/Hamza"
+    },
+    "metrics": {
+      "deezer_fans": 17,
+      "youtube_views": 82207754,
+      "deezer_albums": 1
+    },
     "rank": 25,
-    "previous_rank": 34,
-    "evolution": "▲ 9"
+    "previous_rank": 8,
+    "evolution": "▼ 17"
+  },
+  {
+    "name": "Ihab Amir",
+    "category": "pop",
+    "score": 4.57,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/147aa1175be984147e739373da750871/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/10372222",
+      "spotify": "https://open.spotify.com/search/Ihab%20Amir",
+      "anghami": "https://play.anghami.com/search/Ihab%20Amir"
+    },
+    "metrics": {
+      "deezer_fans": 60378,
+      "youtube_views": 57064316,
+      "deezer_albums": 21
+    },
+    "rank": 26,
+    "previous_rank": 33,
+    "evolution": "▲ 7"
+  },
+  {
+    "name": "Khtek",
+    "category": "rap",
+    "score": 3.78,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d3d7757c8898823531dbc9b654f4c472/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/83068022",
+      "spotify": "https://open.spotify.com/search/Khtek",
+      "anghami": "https://play.anghami.com/search/Khtek"
+    },
+    "metrics": {
+      "deezer_fans": 46017,
+      "youtube_views": 54984790,
+      "deezer_albums": 12
+    },
+    "rank": 27,
+    "previous_rank": 47,
+    "evolution": "▲ 20"
+  },
+  {
+    "name": "Freeklane",
+    "category": "traditional",
+    "score": 2.98,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/7e50a492b5c1b2ba1a5758c7fc174fb3/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/7245022",
+      "spotify": "https://open.spotify.com/search/Freeklane",
+      "anghami": "https://play.anghami.com/search/Freeklane"
+    },
+    "metrics": {
+      "deezer_fans": 22004,
+      "youtube_views": 72086976,
+      "deezer_albums": 2
+    },
+    "rank": 28,
+    "previous_rank": 32,
+    "evolution": "▲ 4"
+  },
+  {
+    "name": "Jil Jilala",
+    "category": "traditional",
+    "score": 2.76,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/281138551",
+      "spotify": "https://open.spotify.com/search/Jil%20Jilala",
+      "anghami": "https://play.anghami.com/search/Jil%20Jilala"
+    },
+    "metrics": {
+      "deezer_fans": 8,
+      "youtube_views": 17124524,
+      "deezer_albums": 1
+    },
+    "rank": 29,
+    "previous_rank": 48,
+    "evolution": "▲ 19"
+  },
+  {
+    "name": "Bilal Hassani",
+    "category": "pop",
+    "score": 2.42,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/f7058e5d355b63e3f7e1d65f3726be7f/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/11523925",
+      "spotify": "https://open.spotify.com/search/Bilal%20Hassani",
+      "anghami": "https://play.anghami.com/search/Bilal%20Hassani"
+    },
+    "metrics": {
+      "deezer_fans": 44975,
+      "youtube_views": 2952695,
+      "deezer_albums": 44
+    },
+    "rank": 30,
+    "previous_rank": 37,
+    "evolution": "▲ 7"
+  },
+  {
+    "name": "Gnawa Diffusion",
+    "category": "traditional",
+    "score": 2.32,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/538ec046787398e8da3fd62a6f29d457/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/14267",
+      "spotify": "https://open.spotify.com/search/Gnawa%20Diffusion",
+      "anghami": "https://play.anghami.com/search/Gnawa%20Diffusion"
+    },
+    "metrics": {
+      "deezer_fans": 40238,
+      "youtube_views": 8587875,
+      "deezer_albums": 4
+    },
+    "rank": 31,
+    "previous_rank": 45,
+    "evolution": "▲ 14"
+  },
+  {
+    "name": "Aziz Maraka",
+    "category": "pop",
+    "score": 2.05,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/ea5211bda688bcd092ff0b15ec06c42c/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/1249413",
+      "spotify": "https://open.spotify.com/search/Aziz%20Maraka",
+      "anghami": "https://play.anghami.com/search/Aziz%20Maraka"
+    },
+    "metrics": {
+      "deezer_fans": 22171,
+      "youtube_views": 34416654,
+      "deezer_albums": 53
+    },
+    "rank": 32,
+    "previous_rank": 38,
+    "evolution": "▲ 6"
+  },
+  {
+    "name": "Nass El Ghiwane",
+    "category": "traditional",
+    "score": 2.04,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/34d90c560b3f9a3b369dc9131a059eaf/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/172264",
+      "spotify": "https://open.spotify.com/search/Nass%20El%20Ghiwane",
+      "anghami": "https://play.anghami.com/search/Nass%20El%20Ghiwane"
+    },
+    "metrics": {
+      "deezer_fans": 27683,
+      "youtube_views": 23165204,
+      "deezer_albums": 82
+    },
+    "rank": 33,
+    "previous_rank": 40,
+    "evolution": "▲ 7"
+  },
+  {
+    "name": "ElGrandeToto",
+    "category": "rap",
+    "score": 1.9,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/285741961",
+      "spotify": "https://open.spotify.com/search/ElGrandeToto",
+      "anghami": "https://play.anghami.com/search/ElGrandeToto"
+    },
+    "metrics": {
+      "deezer_fans": 1725,
+      "youtube_views": 62194147,
+      "deezer_albums": 6
+    },
+    "rank": 34,
+    "previous_rank": 14,
+    "evolution": "▼ 20"
   },
   {
     "name": "Houssam El Marrakchi",
     "category": "traditional",
-    "score": 3.1,
+    "score": 1.9,
     "artist_image": "",
     "links": {
       "deezer": "",
@@ -486,150 +657,17 @@
     },
     "metrics": {
       "deezer_fans": 0,
-      "youtube_views": 2636441,
+      "youtube_views": 1346929,
       "deezer_albums": 0
     },
-    "rank": 26,
-    "previous_rank": 20,
-    "evolution": "▼ 6"
-  },
-  {
-    "name": "Hindi Zahra",
-    "category": "traditional",
-    "score": 3.08,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/18f936f58d1c70678905db7e689db4f8/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/298133",
-      "spotify": "https://open.spotify.com/search/Hindi%20Zahra",
-      "anghami": "https://play.anghami.com/search/Hindi%20Zahra"
-    },
-    "metrics": {
-      "deezer_fans": 127754,
-      "youtube_views": 94049099,
-      "deezer_albums": 8
-    },
-    "rank": 27,
-    "previous_rank": 24,
-    "evolution": "▼ 3"
-  },
-  {
-    "name": "Don Bigg",
-    "category": "rap",
-    "score": 2.55,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/8eada9baade53a334a1466850d2baec9/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/342437",
-      "spotify": "https://open.spotify.com/search/Don%20Bigg",
-      "anghami": "https://play.anghami.com/search/Don%20Bigg"
-    },
-    "metrics": {
-      "deezer_fans": 130198,
-      "youtube_views": 67214186,
-      "deezer_albums": 28
-    },
-    "rank": 28,
-    "previous_rank": 27,
-    "evolution": "▼ 1"
-  },
-  {
-    "name": "Douzi",
-    "category": "traditional",
-    "score": 2.27,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/8d9638098ec6d9342fcf75036f5dcbab/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/1211141",
-      "spotify": "https://open.spotify.com/search/Douzi",
-      "anghami": "https://play.anghami.com/search/Douzi"
-    },
-    "metrics": {
-      "deezer_fans": 244481,
-      "youtube_views": 5170502,
-      "deezer_albums": 44
-    },
-    "rank": 29,
-    "previous_rank": 21,
-    "evolution": "▼ 8"
-  },
-  {
-    "name": "Shayfeen",
-    "category": "rap",
-    "score": 2.07,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/c75d84e3abd20e35bd04c38bb3a69f3d/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/9841534",
-      "spotify": "https://open.spotify.com/search/Shayfeen",
-      "anghami": "https://play.anghami.com/search/Shayfeen"
-    },
-    "metrics": {
-      "deezer_fans": 153945,
-      "youtube_views": 33564239,
-      "deezer_albums": 15
-    },
-    "rank": 30,
-    "previous_rank": 28,
-    "evolution": "▼ 2"
-  },
-  {
-    "name": "Samira Said",
-    "category": "pop",
-    "score": 1.75,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/243936542",
-      "spotify": "https://open.spotify.com/search/Samira%20Said",
-      "anghami": "https://play.anghami.com/search/Samira%20Said"
-    },
-    "metrics": {
-      "deezer_fans": 1762,
-      "youtube_views": 67620082,
-      "deezer_albums": 60
-    },
-    "rank": 31,
-    "previous_rank": 29,
-    "evolution": "▼ 2"
-  },
-  {
-    "name": "Freeklane",
-    "category": "traditional",
-    "score": 1.54,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/7e50a492b5c1b2ba1a5758c7fc174fb3/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/7245022",
-      "spotify": "https://open.spotify.com/search/Freeklane",
-      "anghami": "https://play.anghami.com/search/Freeklane"
-    },
-    "metrics": {
-      "deezer_fans": 22002,
-      "youtube_views": 61711429,
-      "deezer_albums": 2
-    },
-    "rank": 32,
-    "previous_rank": 31,
-    "evolution": "▼ 1"
-  },
-  {
-    "name": "Ihab Amir",
-    "category": "pop",
-    "score": 1.33,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/147aa1175be984147e739373da750871/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/10372222",
-      "spotify": "https://open.spotify.com/search/Ihab%20Amir",
-      "anghami": "https://play.anghami.com/search/Ihab%20Amir"
-    },
-    "metrics": {
-      "deezer_fans": 60374,
-      "youtube_views": 37005836,
-      "deezer_albums": 21
-    },
-    "rank": 33,
-    "previous_rank": 30,
-    "evolution": "▼ 3"
+    "rank": 35,
+    "previous_rank": 26,
+    "evolution": "▼ 9"
   },
   {
     "name": "Latifa Raafat",
     "category": "traditional",
-    "score": 1.17,
+    "score": 1.53,
     "artist_image": "https://cdn-images.dzcdn.net/images/artist/f9e38bf0efb9b95730b87a34ae8ef46c/250x250-000000-80-0-0.jpg",
     "links": {
       "deezer": "https://www.deezer.com/artist/1059664",
@@ -637,18 +675,303 @@
       "anghami": "https://play.anghami.com/search/Latifa%20Raafat"
     },
     "metrics": {
-      "deezer_fans": 6032,
-      "youtube_views": 46755826,
+      "deezer_fans": 6033,
+      "youtube_views": 44368020,
       "deezer_albums": 12
     },
-    "rank": 34,
-    "previous_rank": 36,
+    "rank": 36,
+    "previous_rank": 34,
+    "evolution": "▼ 2"
+  },
+  {
+    "name": "Lamchaheb",
+    "category": "traditional",
+    "score": 1.31,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/bdfe6eb54330c8235a17a2ee2b9498e5/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/260600791",
+      "spotify": "https://open.spotify.com/search/Lamchaheb",
+      "anghami": "https://play.anghami.com/search/Lamchaheb"
+    },
+    "metrics": {
+      "deezer_fans": 14,
+      "youtube_views": 7041949,
+      "deezer_albums": 6
+    },
+    "rank": 37,
+    "previous_rank": 52,
+    "evolution": "▲ 15"
+  },
+  {
+    "name": "Hamid El Kasri",
+    "category": "traditional",
+    "score": 1.16,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/8878880957b790c32c567ab7fa4e46c1/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/874905",
+      "spotify": "https://open.spotify.com/search/Hamid%20El%20Kasri",
+      "anghami": "https://play.anghami.com/search/Hamid%20El%20Kasri"
+    },
+    "metrics": {
+      "deezer_fans": 6183,
+      "youtube_views": 29864445,
+      "deezer_albums": 16
+    },
+    "rank": 38,
+    "previous_rank": 42,
+    "evolution": "▲ 4"
+  },
+  {
+    "name": "Abdelhadi Belkhayat",
+    "category": "traditional",
+    "score": 1.12,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/0b0483abcd0cceb4cc102b8b5c4afa90/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/1217953",
+      "spotify": "https://open.spotify.com/search/Abdelhadi%20Belkhayat",
+      "anghami": "https://play.anghami.com/search/Abdelhadi%20Belkhayat"
+    },
+    "metrics": {
+      "deezer_fans": 3031,
+      "youtube_views": 32850096,
+      "deezer_albums": 49
+    },
+    "rank": 39,
+    "previous_rank": 39,
+    "evolution": "="
+  },
+  {
+    "name": "Hoba Hoba Spirit",
+    "category": "traditional",
+    "score": 1.1,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/7fa2fd47ea1cf93c89390d49b3fccd22/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/668026",
+      "spotify": "https://open.spotify.com/search/Hoba%20Hoba%20Spirit",
+      "anghami": "https://play.anghami.com/search/Hoba%20Hoba%20Spirit"
+    },
+    "metrics": {
+      "deezer_fans": 18212,
+      "youtube_views": 5472935,
+      "deezer_albums": 12
+    },
+    "rank": 40,
+    "previous_rank": 54,
+    "evolution": "▲ 14"
+  },
+  {
+    "name": "Oum",
+    "category": "traditional",
+    "score": 1.04,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/7df5b290e698bb553698df220163544c/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/85190252",
+      "spotify": "https://open.spotify.com/search/Oum",
+      "anghami": "https://play.anghami.com/search/Oum"
+    },
+    "metrics": {
+      "deezer_fans": 159,
+      "youtube_views": 19458800,
+      "deezer_albums": 0
+    },
+    "rank": 41,
+    "previous_rank": 43,
     "evolution": "▲ 2"
+  },
+  {
+    "name": "Abdelaziz Stati",
+    "category": "traditional",
+    "score": 0.97,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/7d2dbd2488e0dc40eb306c5ebbc49d93/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/5826886",
+      "spotify": "https://open.spotify.com/search/Abdelaziz%20Stati",
+      "anghami": "https://play.anghami.com/search/Abdelaziz%20Stati"
+    },
+    "metrics": {
+      "deezer_fans": 5019,
+      "youtube_views": 24583001,
+      "deezer_albums": 124
+    },
+    "rank": 42,
+    "previous_rank": 36,
+    "evolution": "▼ 6"
+  },
+  {
+    "name": "Raïss El Mekki",
+    "category": "traditional",
+    "score": 0.89,
+    "artist_image": "",
+    "links": {
+      "deezer": "",
+      "spotify": "https://open.spotify.com/search/Ra%C3%AFss%20El%20Mekki",
+      "anghami": "https://play.anghami.com/search/Ra%C3%AFss%20El%20Mekki"
+    },
+    "metrics": {
+      "deezer_fans": 0,
+      "youtube_views": 302623,
+      "deezer_albums": 0
+    },
+    "rank": 43,
+    "previous_rank": 9,
+    "evolution": "▼ 34"
+  },
+  {
+    "name": "Mobydick",
+    "category": "rap",
+    "score": 0.85,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/e6409e5d80587af4969b7044a3b44666/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/66457",
+      "spotify": "https://open.spotify.com/search/Mobydick",
+      "anghami": "https://play.anghami.com/search/Mobydick"
+    },
+    "metrics": {
+      "deezer_fans": 6431,
+      "youtube_views": 17694610,
+      "deezer_albums": 74
+    },
+    "rank": 44,
+    "previous_rank": 50,
+    "evolution": "▲ 6"
+  },
+  {
+    "name": "Mustapha Oumguil",
+    "category": "traditional",
+    "score": 0.82,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/c6017abe7362c92ed1a6abef1c3919ac/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/4080365",
+      "spotify": "https://open.spotify.com/search/Mustapha%20Oumguil",
+      "anghami": "https://play.anghami.com/search/Mustapha%20Oumguil"
+    },
+    "metrics": {
+      "deezer_fans": 3413,
+      "youtube_views": 21085477,
+      "deezer_albums": 49
+    },
+    "rank": 45,
+    "previous_rank": 49,
+    "evolution": "▲ 4"
+  },
+  {
+    "name": "Samira Said",
+    "category": "pop",
+    "score": 0.81,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/243936542",
+      "spotify": "https://open.spotify.com/search/Samira%20Said",
+      "anghami": "https://play.anghami.com/search/Samira%20Said"
+    },
+    "metrics": {
+      "deezer_fans": 1778,
+      "youtube_views": 22103272,
+      "deezer_albums": 61
+    },
+    "rank": 46,
+    "previous_rank": 31,
+    "evolution": "▼ 15"
+  },
+  {
+    "name": "Naima Samih",
+    "category": "traditional",
+    "score": 0.73,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/11f1ce244b0570930b251f8b5cf4e6c2/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/1349383",
+      "spotify": "https://open.spotify.com/search/Naima%20Samih",
+      "anghami": "https://play.anghami.com/search/Naima%20Samih"
+    },
+    "metrics": {
+      "deezer_fans": 2177,
+      "youtube_views": 19114792,
+      "deezer_albums": 16
+    },
+    "rank": 47,
+    "previous_rank": 46,
+    "evolution": "▼ 1"
+  },
+  {
+    "name": "Dj Van",
+    "category": "electronic",
+    "score": 0.72,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/57c9bec3606bb72c0452f9ff96fa8d07/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/395470",
+      "spotify": "https://open.spotify.com/search/Dj%20Van",
+      "anghami": "https://play.anghami.com/search/Dj%20Van"
+    },
+    "metrics": {
+      "deezer_fans": 8373,
+      "youtube_views": 9659874,
+      "deezer_albums": 5
+    },
+    "rank": 48,
+    "previous_rank": 5,
+    "evolution": "▼ 43"
+  },
+  {
+    "name": "Hajja Hamdaouia",
+    "category": "traditional",
+    "score": 0.68,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/ee3adec4f7f7e708c5496ba0bbd77fc4/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/4279072",
+      "spotify": "https://open.spotify.com/search/Hajja%20Hamdaouia",
+      "anghami": "https://play.anghami.com/search/Hajja%20Hamdaouia"
+    },
+    "metrics": {
+      "deezer_fans": 716,
+      "youtube_views": 16465912,
+      "deezer_albums": 1
+    },
+    "rank": 49,
+    "previous_rank": 44,
+    "evolution": "▼ 5"
+  },
+  {
+    "name": "Anas Abou Ras",
+    "category": "pop",
+    "score": 0.57,
+    "artist_image": "",
+    "links": {
+      "deezer": "",
+      "spotify": "https://open.spotify.com/search/Anas%20Abou%20Ras",
+      "anghami": "https://play.anghami.com/search/Anas%20Abou%20Ras"
+    },
+    "metrics": {
+      "deezer_fans": 0,
+      "youtube_views": 125692,
+      "deezer_albums": 0
+    },
+    "rank": 50,
+    "previous_rank": 25,
+    "evolution": "▼ 25"
+  },
+  {
+    "name": "Ahmed Soultan",
+    "category": "pop",
+    "score": 0.55,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/c1b3ce37d27d906c1dbc90e3d8d8dbd5/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/884190",
+      "spotify": "https://open.spotify.com/search/Ahmed%20Soultan",
+      "anghami": "https://play.anghami.com/search/Ahmed%20Soultan"
+    },
+    "metrics": {
+      "deezer_fans": 6704,
+      "youtube_views": 6372538,
+      "deezer_albums": 11
+    },
+    "rank": 51,
+    "previous_rank": 41,
+    "evolution": "▼ 10"
   },
   {
     "name": "Tarik Ahmed",
     "category": "rap",
-    "score": 0.99,
+    "score": 0.53,
     "artist_image": "https://cdn-images.dzcdn.net/images/artist/473fc9ec5c3a7d092c39e885d55a9206/250x250-000000-80-0-0.jpg",
     "links": {
       "deezer": "https://www.deezer.com/artist/65036992",
@@ -657,378 +980,17 @@
     },
     "metrics": {
       "deezer_fans": 27,
-      "youtube_views": 5781537,
+      "youtube_views": 2332899,
       "deezer_albums": 2
-    },
-    "rank": 35,
-    "previous_rank": 42,
-    "evolution": "▲ 7"
-  },
-  {
-    "name": "Abdelaziz Stati",
-    "category": "traditional",
-    "score": 0.96,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/7d2dbd2488e0dc40eb306c5ebbc49d93/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/5826886",
-      "spotify": "https://open.spotify.com/search/Abdelaziz%20Stati",
-      "anghami": "https://play.anghami.com/search/Abdelaziz%20Stati"
-    },
-    "metrics": {
-      "deezer_fans": 5006,
-      "youtube_views": 37220841,
-      "deezer_albums": 125
-    },
-    "rank": 36,
-    "previous_rank": 48,
-    "evolution": "▲ 12"
-  },
-  {
-    "name": "Bilal Hassani",
-    "category": "pop",
-    "score": 0.95,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/f7058e5d355b63e3f7e1d65f3726be7f/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/11523925",
-      "spotify": "https://open.spotify.com/search/Bilal%20Hassani",
-      "anghami": "https://play.anghami.com/search/Bilal%20Hassani"
-    },
-    "metrics": {
-      "deezer_fans": 44918,
-      "youtube_views": 25025958,
-      "deezer_albums": 44
-    },
-    "rank": 37,
-    "previous_rank": 35,
-    "evolution": "▼ 2"
-  },
-  {
-    "name": "Aziz Maraka",
-    "category": "pop",
-    "score": 0.93,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/ea5211bda688bcd092ff0b15ec06c42c/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/1249413",
-      "spotify": "https://open.spotify.com/search/Aziz%20Maraka",
-      "anghami": "https://play.anghami.com/search/Aziz%20Maraka"
-    },
-    "metrics": {
-      "deezer_fans": 22167,
-      "youtube_views": 32548032,
-      "deezer_albums": 53
-    },
-    "rank": 38,
-    "previous_rank": 38,
-    "evolution": "="
-  },
-  {
-    "name": "Abdelhadi Belkhayat",
-    "category": "traditional",
-    "score": 0.88,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/0b0483abcd0cceb4cc102b8b5c4afa90/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/1217953",
-      "spotify": "https://open.spotify.com/search/Abdelhadi%20Belkhayat",
-      "anghami": "https://play.anghami.com/search/Abdelhadi%20Belkhayat"
-    },
-    "metrics": {
-      "deezer_fans": 3029,
-      "youtube_views": 32664854,
-      "deezer_albums": 49
-    },
-    "rank": 39,
-    "previous_rank": 41,
-    "evolution": "▲ 2"
-  },
-  {
-    "name": "Nass El Ghiwane",
-    "category": "traditional",
-    "score": 0.83,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/692b472c58f8a0775a5c38ced1d85fb7/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/172264",
-      "spotify": "https://open.spotify.com/search/Nass%20El%20Ghiwane",
-      "anghami": "https://play.anghami.com/search/Nass%20El%20Ghiwane"
-    },
-    "metrics": {
-      "deezer_fans": 27657,
-      "youtube_views": 26230796,
-      "deezer_albums": 82
-    },
-    "rank": 40,
-    "previous_rank": 37,
-    "evolution": "▼ 3"
-  },
-  {
-    "name": "Ahmed Soultan",
-    "category": "pop",
-    "score": 0.8,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/c1b3ce37d27d906c1dbc90e3d8d8dbd5/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/884190",
-      "spotify": "https://open.spotify.com/search/Ahmed%20Soultan",
-      "anghami": "https://play.anghami.com/search/Ahmed%20Soultan"
-    },
-    "metrics": {
-      "deezer_fans": 6696,
-      "youtube_views": 30509088,
-      "deezer_albums": 11
-    },
-    "rank": 41,
-    "previous_rank": 44,
-    "evolution": "▲ 3"
-  },
-  {
-    "name": "Hamid El Kasri",
-    "category": "traditional",
-    "score": 0.79,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/8878880957b790c32c567ab7fa4e46c1/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/874905",
-      "spotify": "https://open.spotify.com/search/Hamid%20El%20Kasri",
-      "anghami": "https://play.anghami.com/search/Hamid%20El%20Kasri"
-    },
-    "metrics": {
-      "deezer_fans": 6178,
-      "youtube_views": 29751301,
-      "deezer_albums": 16
-    },
-    "rank": 42,
-    "previous_rank": 45,
-    "evolution": "▲ 3"
-  },
-  {
-    "name": "Oum",
-    "category": "traditional",
-    "score": 0.73,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/7399d5192ac0599112e305e15adc91ac/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/342453",
-      "spotify": "https://open.spotify.com/search/Oum",
-      "anghami": "https://play.anghami.com/search/Oum"
-    },
-    "metrics": {
-      "deezer_fans": 36693,
-      "youtube_views": 18103831,
-      "deezer_albums": 16
-    },
-    "rank": 43,
-    "previous_rank": 39,
-    "evolution": "▼ 4"
-  },
-  {
-    "name": "Hajja Hamdaouia",
-    "category": "traditional",
-    "score": 0.62,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/ee3adec4f7f7e708c5496ba0bbd77fc4/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/4279072",
-      "spotify": "https://open.spotify.com/search/Hajja%20Hamdaouia",
-      "anghami": "https://play.anghami.com/search/Hajja%20Hamdaouia"
-    },
-    "metrics": {
-      "deezer_fans": 715,
-      "youtube_views": 16439422,
-      "deezer_albums": 1
-    },
-    "rank": 44,
-    "previous_rank": 47,
-    "evolution": "▲ 3"
-  },
-  {
-    "name": "Gnawa Diffusion",
-    "category": "traditional",
-    "score": 0.62,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/538ec046787398e8da3fd62a6f29d457/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/14267",
-      "spotify": "https://open.spotify.com/search/Gnawa%20Diffusion",
-      "anghami": "https://play.anghami.com/search/Gnawa%20Diffusion"
-    },
-    "metrics": {
-      "deezer_fans": 40194,
-      "youtube_views": 11387192,
-      "deezer_albums": 4
-    },
-    "rank": 45,
-    "previous_rank": 43,
-    "evolution": "▼ 2"
-  },
-  {
-    "name": "Naima Samih",
-    "category": "traditional",
-    "score": 0.5,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/11f1ce244b0570930b251f8b5cf4e6c2/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/1349383",
-      "spotify": "https://open.spotify.com/search/Naima%20Samih",
-      "anghami": "https://play.anghami.com/search/Naima%20Samih"
-    },
-    "metrics": {
-      "deezer_fans": 2173,
-      "youtube_views": 15884782,
-      "deezer_albums": 16
-    },
-    "rank": 46,
-    "previous_rank": 49,
-    "evolution": "▲ 3"
-  },
-  {
-    "name": "Khtek",
-    "category": "rap",
-    "score": 0.49,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/230376445",
-      "spotify": "https://open.spotify.com/search/Khtek",
-      "anghami": "https://play.anghami.com/search/Khtek"
-    },
-    "metrics": {
-      "deezer_fans": 34,
-      "youtube_views": 1934749,
-      "deezer_albums": 2
-    },
-    "rank": 47,
-    "previous_rank": 46,
-    "evolution": "▼ 1"
-  },
-  {
-    "name": "Jil Jilala",
-    "category": "traditional",
-    "score": 0.49,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/64d19ad74bf174d41aef028a12e90afa/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/1223125",
-      "spotify": "https://open.spotify.com/search/Jil%20Jilala",
-      "anghami": "https://play.anghami.com/search/Jil%20Jilala"
-    },
-    "metrics": {
-      "deezer_fans": 5784,
-      "youtube_views": 16892032,
-      "deezer_albums": 139
-    },
-    "rank": 48,
-    "previous_rank": 51,
-    "evolution": "▲ 3"
-  },
-  {
-    "name": "Mustapha Oumguil",
-    "category": "traditional",
-    "score": 0.46,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/c6017abe7362c92ed1a6abef1c3919ac/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/4080365",
-      "spotify": "https://open.spotify.com/search/Mustapha%20Oumguil",
-      "anghami": "https://play.anghami.com/search/Mustapha%20Oumguil"
-    },
-    "metrics": {
-      "deezer_fans": 3408,
-      "youtube_views": 14849504,
-      "deezer_albums": 52
-    },
-    "rank": 49,
-    "previous_rank": 50,
-    "evolution": "▲ 1"
-  },
-  {
-    "name": "Mobydick",
-    "category": "rap",
-    "score": 0.45,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/e6409e5d80587af4969b7044a3b44666/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/66457",
-      "spotify": "https://open.spotify.com/search/Mobydick",
-      "anghami": "https://play.anghami.com/search/Mobydick"
-    },
-    "metrics": {
-      "deezer_fans": 6429,
-      "youtube_views": 14769058,
-      "deezer_albums": 74
-    },
-    "rank": 50,
-    "previous_rank": 40,
-    "evolution": "▼ 10"
-  },
-  {
-    "name": "Najat Aatabou",
-    "category": "traditional",
-    "score": 0.43,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/2f7decd4dfdd8fa62907a4a6caedf6e7/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/1202696",
-      "spotify": "https://open.spotify.com/search/Najat%20Aatabou",
-      "anghami": "https://play.anghami.com/search/Najat%20Aatabou"
-    },
-    "metrics": {
-      "deezer_fans": 4487,
-      "youtube_views": 13934868,
-      "deezer_albums": 18
-    },
-    "rank": 51,
-    "previous_rank": 52,
-    "evolution": "▲ 1"
-  },
-  {
-    "name": "Lamchaheb",
-    "category": "traditional",
-    "score": 0.34,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d9b1f3b1584c2480d5c270f9d295c974/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/6734729",
-      "spotify": "https://open.spotify.com/search/Lamchaheb",
-      "anghami": "https://play.anghami.com/search/Lamchaheb"
-    },
-    "metrics": {
-      "deezer_fans": 660,
-      "youtube_views": 7004784,
-      "deezer_albums": 3
     },
     "rank": 52,
-    "previous_rank": 26,
-    "evolution": "▼ 26"
-  },
-  {
-    "name": "Maâlem Mahmoud Guinia",
-    "category": "traditional",
-    "score": 0.29,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/c2ea18877e43947a672444a87c5322c7/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/13141641",
-      "spotify": "https://open.spotify.com/search/Ma%C3%A2lem%20Mahmoud%20Guinia",
-      "anghami": "https://play.anghami.com/search/Ma%C3%A2lem%20Mahmoud%20Guinia"
-    },
-    "metrics": {
-      "deezer_fans": 480,
-      "youtube_views": 4788327,
-      "deezer_albums": 1
-    },
-    "rank": 53,
-    "previous_rank": 54,
-    "evolution": "▲ 1"
-  },
-  {
-    "name": "Hoba Hoba Spirit",
-    "category": "traditional",
-    "score": 0.28,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/7fa2fd47ea1cf93c89390d49b3fccd22/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/668026",
-      "spotify": "https://open.spotify.com/search/Hoba%20Hoba%20Spirit",
-      "anghami": "https://play.anghami.com/search/Hoba%20Hoba%20Spirit"
-    },
-    "metrics": {
-      "deezer_fans": 18198,
-      "youtube_views": 4420982,
-      "deezer_albums": 12
-    },
-    "rank": 54,
-    "previous_rank": 53,
-    "evolution": "▼ 1"
+    "previous_rank": 35,
+    "evolution": "▼ 17"
   },
   {
     "name": "Omar Sayed",
     "category": "traditional",
-    "score": 0.27,
+    "score": 0.38,
     "artist_image": "https://cdn-images.dzcdn.net/images/artist/2f14a0093c6ab5a5c54d4d5f24f4958a/250x250-000000-80-0-0.jpg",
     "links": {
       "deezer": "https://www.deezer.com/artist/14699405",
@@ -1037,17 +999,17 @@
     },
     "metrics": {
       "deezer_fans": 48,
-      "youtube_views": 875116,
+      "youtube_views": 2005699,
       "deezer_albums": 50
     },
-    "rank": 55,
-    "previous_rank": 58,
-    "evolution": "▲ 3"
+    "rank": 53,
+    "previous_rank": 55,
+    "evolution": "▲ 2"
   },
   {
     "name": "Hassan El Fad",
     "category": "traditional",
-    "score": 0.24,
+    "score": 0.3,
     "artist_image": "https://cdn-images.dzcdn.net/images/artist/696d42f256bbee548223df458a3683bf/250x250-000000-80-0-0.jpg",
     "links": {
       "deezer": "https://www.deezer.com/artist/5383485",
@@ -1055,18 +1017,56 @@
       "anghami": "https://play.anghami.com/search/Hassan%20El%20Fad"
     },
     "metrics": {
-      "deezer_fans": 3307,
-      "youtube_views": 6415462,
+      "deezer_fans": 3310,
+      "youtube_views": 3354812,
       "deezer_albums": 256
     },
+    "rank": 54,
+    "previous_rank": 56,
+    "evolution": "▲ 2"
+  },
+  {
+    "name": "Maâlem Mahmoud Guinia",
+    "category": "traditional",
+    "score": 0.28,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/c2ea18877e43947a672444a87c5322c7/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/13141641",
+      "spotify": "https://open.spotify.com/search/Ma%C3%A2lem%20Mahmoud%20Guinia",
+      "anghami": "https://play.anghami.com/search/Ma%C3%A2lem%20Mahmoud%20Guinia"
+    },
+    "metrics": {
+      "deezer_fans": 483,
+      "youtube_views": 4275096,
+      "deezer_albums": 1
+    },
+    "rank": 55,
+    "previous_rank": 53,
+    "evolution": "▼ 2"
+  },
+  {
+    "name": "Najat Aatabou",
+    "category": "traditional",
+    "score": 0.27,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/2f7decd4dfdd8fa62907a4a6caedf6e7/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/1202696",
+      "spotify": "https://open.spotify.com/search/Najat%20Aatabou",
+      "anghami": "https://play.anghami.com/search/Najat%20Aatabou"
+    },
+    "metrics": {
+      "deezer_fans": 4495,
+      "youtube_views": 626348,
+      "deezer_albums": 18
+    },
     "rank": 56,
-    "previous_rank": 55,
-    "evolution": "▼ 1"
+    "previous_rank": 51,
+    "evolution": "▼ 5"
   },
   {
     "name": "Hajar Bou Azzouz",
     "category": "pop",
-    "score": 0.15,
+    "score": 0.13,
     "artist_image": "",
     "links": {
       "deezer": "",
@@ -1075,17 +1075,55 @@
     },
     "metrics": {
       "deezer_fans": 0,
-      "youtube_views": 6665,
+      "youtube_views": 6685,
       "deezer_albums": 0
     },
     "rank": 57,
-    "previous_rank": 56,
-    "evolution": "▼ 1"
+    "previous_rank": 57,
+    "evolution": "="
+  },
+  {
+    "name": "Driss El Maloumi",
+    "category": "traditional",
+    "score": 0.13,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/d29edd1391fdc8033732ef11aff30462/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/57073",
+      "spotify": "https://open.spotify.com/search/Driss%20El%20Maloumi",
+      "anghami": "https://play.anghami.com/search/Driss%20El%20Maloumi"
+    },
+    "metrics": {
+      "deezer_fans": 2363,
+      "youtube_views": 15621,
+      "deezer_albums": 10
+    },
+    "rank": 58,
+    "previous_rank": 63,
+    "evolution": "▲ 5"
+  },
+  {
+    "name": "Amina Alaoui",
+    "category": "traditional",
+    "score": 0.11,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/8fa53e681d24f2efcc71589d8b845102/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/1041451",
+      "spotify": "https://open.spotify.com/search/Amina%20Alaoui",
+      "anghami": "https://play.anghami.com/search/Amina%20Alaoui"
+    },
+    "metrics": {
+      "deezer_fans": 1978,
+      "youtube_views": 7486,
+      "deezer_albums": 7
+    },
+    "rank": 59,
+    "previous_rank": 60,
+    "evolution": "▲ 1"
   },
   {
     "name": "Black Flamingo",
     "category": "electronic",
-    "score": 0.13,
+    "score": 0.11,
     "artist_image": "https://cdn-images.dzcdn.net/images/artist/751f933f8767aa7f6d9076019b332f74/250x250-000000-80-0-0.jpg",
     "links": {
       "deezer": "https://www.deezer.com/artist/712992",
@@ -1094,17 +1132,36 @@
     },
     "metrics": {
       "deezer_fans": 110,
-      "youtube_views": 460516,
+      "youtube_views": 419236,
       "deezer_albums": 33
     },
-    "rank": 58,
-    "previous_rank": 57,
-    "evolution": "▼ 1"
+    "rank": 60,
+    "previous_rank": 58,
+    "evolution": "▼ 2"
+  },
+  {
+    "name": "Karim Ziad",
+    "category": "traditional",
+    "score": 0.1,
+    "artist_image": "https://cdn-images.dzcdn.net/images/artist/73c1a85f7306e8b6472f52980b4d9135/250x250-000000-80-0-0.jpg",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/162798",
+      "spotify": "https://open.spotify.com/search/Karim%20Ziad",
+      "anghami": "https://play.anghami.com/search/Karim%20Ziad"
+    },
+    "metrics": {
+      "deezer_fans": 1582,
+      "youtube_views": 106143,
+      "deezer_albums": 5
+    },
+    "rank": 61,
+    "previous_rank": 62,
+    "evolution": "▲ 1"
   },
   {
     "name": "Said Chraibi",
     "category": "traditional",
-    "score": 0.04,
+    "score": 0.09,
     "artist_image": "https://cdn-images.dzcdn.net/images/artist/1d303496b077cde9ed6e44c3ce9f9369/250x250-000000-80-0-0.jpg",
     "links": {
       "deezer": "https://www.deezer.com/artist/1263350",
@@ -1113,31 +1170,12 @@
     },
     "metrics": {
       "deezer_fans": 1007,
-      "youtube_views": 199201,
+      "youtube_views": 362436,
       "deezer_albums": 2
     },
-    "rank": 59,
-    "previous_rank": 60,
-    "evolution": "▲ 1"
-  },
-  {
-    "name": "Amina Alaoui",
-    "category": "traditional",
-    "score": 0.03,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/8fa53e681d24f2efcc71589d8b845102/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/1041451",
-      "spotify": "https://open.spotify.com/search/Amina%20Alaoui",
-      "anghami": "https://play.anghami.com/search/Amina%20Alaoui"
-    },
-    "metrics": {
-      "deezer_fans": 1976,
-      "youtube_views": 30157,
-      "deezer_albums": 7
-    },
-    "rank": 60,
-    "previous_rank": 62,
-    "evolution": "▲ 2"
+    "rank": 62,
+    "previous_rank": 59,
+    "evolution": "▼ 3"
   },
   {
     "name": "Karima Skalli",
@@ -1151,50 +1189,12 @@
     },
     "metrics": {
       "deezer_fans": 24,
-      "youtube_views": 7526,
+      "youtube_views": 7556,
       "deezer_albums": 7
     },
-    "rank": 61,
-    "previous_rank": 59,
-    "evolution": "▼ 2"
-  },
-  {
-    "name": "Karim Ziad",
-    "category": "traditional",
-    "score": 0.03,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/73c1a85f7306e8b6472f52980b4d9135/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/162798",
-      "spotify": "https://open.spotify.com/search/Karim%20Ziad",
-      "anghami": "https://play.anghami.com/search/Karim%20Ziad"
-    },
-    "metrics": {
-      "deezer_fans": 1582,
-      "youtube_views": 99266,
-      "deezer_albums": 5
-    },
-    "rank": 62,
-    "previous_rank": 61,
-    "evolution": "▼ 1"
-  },
-  {
-    "name": "Driss El Maloumi",
-    "category": "traditional",
-    "score": 0.03,
-    "artist_image": "https://cdn-images.dzcdn.net/images/artist/68426607a507ab04d597545d6c5f85fc/250x250-000000-80-0-0.jpg",
-    "links": {
-      "deezer": "https://www.deezer.com/artist/57073",
-      "spotify": "https://open.spotify.com/search/Driss%20El%20Maloumi",
-      "anghami": "https://play.anghami.com/search/Driss%20El%20Maloumi"
-    },
-    "metrics": {
-      "deezer_fans": 2362,
-      "youtube_views": 15465,
-      "deezer_albums": 10
-    },
     "rank": 63,
-    "previous_rank": 63,
-    "evolution": "="
+    "previous_rank": 61,
+    "evolution": "▼ 2"
   },
   {
     "name": "Widad Akedim",
